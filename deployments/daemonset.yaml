@@ -11,3 +11,4 @@ spec:
   template:
     metadata:
       labels:
+        name: nginx
