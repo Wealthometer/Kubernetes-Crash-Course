@@ -23,3 +23,4 @@ def connect_to_db():
     db_name = os.getenv('POSTGRES_DB')
 
     if not all([db_user, db_password, db_host, db_name]):
+        raise Exception("Database environment variables are not fully set.")
