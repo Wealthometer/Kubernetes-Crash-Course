@@ -35,3 +35,4 @@ if docker ps | grep -q gamehub-postgres; then
         echo -e "${YELLOW}⚠️  PostgreSQL is starting up...${NC}"
     fi
 else
+    echo -e "${RED}❌ PostgreSQL container not found${NC}"
