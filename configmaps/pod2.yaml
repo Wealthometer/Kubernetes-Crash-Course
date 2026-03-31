@@ -24,3 +24,4 @@ spec:
         - name: config-volume
           mountPath: /etc/config
       volumes:
+      - name: config-volume
