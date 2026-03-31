@@ -60,3 +60,4 @@ check_port 5432 "PostgreSQL"
 # Check Service Responses
 echo -e "\n${BLUE}Service Response Check:${NC}"
 check_service() {
+    local name=$1
