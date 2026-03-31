@@ -35,3 +35,4 @@ def connect_to_db():
             print("✅ Successfully connected to the database")
             return conn
         except psycopg2.OperationalError as e:
+            print(f"❌ Failed to connect to DB (attempt {attempt + 1}/{max_retries}): {e}")
