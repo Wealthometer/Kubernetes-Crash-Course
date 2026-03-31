@@ -108,3 +108,4 @@ def login():
                     return jsonify({"error": "User not found"}), 404
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    finally:
