@@ -14,3 +14,4 @@ spec:
     spec:
       containers:
       - name: web-app-container
+        image: nginx  
