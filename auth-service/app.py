@@ -73,3 +73,4 @@ def register():
         if conn:
             conn.close()
 
+@app.route('/login', methods=['POST'])
