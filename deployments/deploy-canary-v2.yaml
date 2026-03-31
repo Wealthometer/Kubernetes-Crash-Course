@@ -12,3 +12,4 @@ spec:
     metadata:
       labels:
         app: nginx
+        version: "1.18"
