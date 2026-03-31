@@ -7,3 +7,4 @@ spec:
   - name: bootcamp-demo
     image: saiyam911/course-demo:v1
   imagePullSecrets:
+  - name: pullsec
