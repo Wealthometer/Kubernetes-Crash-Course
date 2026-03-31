@@ -77,3 +77,4 @@ docker exec -i gamehub-postgres psql -U user -d gamehub < init.sql
 ```bash
 cd auth-service
 
+# Create virtual environment
