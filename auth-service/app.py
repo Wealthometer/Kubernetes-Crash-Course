@@ -38,3 +38,4 @@ def connect_to_db():
             print(f"❌ Failed to connect to DB (attempt {attempt + 1}/{max_retries}): {e}")
             if attempt < max_retries - 1:
                 time.sleep(retry_delay)
+            else:
