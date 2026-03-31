@@ -59,3 +59,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
 #### 1. Database Setup
 ```bash
 # Start PostgreSQL with Docker
+docker run --name gamehub-postgres \
