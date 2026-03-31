@@ -42,3 +42,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
    ```bash
    chmod +x start-local.sh
    ./start-local.sh
+   ```
