@@ -6,3 +6,4 @@ resources:
     providers:
       - aescbc:
           keys:
+            - name: key1
