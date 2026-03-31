@@ -29,3 +29,4 @@ kubectl create secret generic demo-secret --from-literal=password=KubeRocks
 ```
 - Use etcdtl to check 
 ```
+export ETCDCTL_API=3
