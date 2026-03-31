@@ -33,3 +33,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
 ### Quick Start
 
 1. **Clone the repository**
+   ```bash
