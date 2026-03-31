@@ -4,3 +4,4 @@ resources:
   - resources:
       - secrets
     providers:
+      - aescbc:
