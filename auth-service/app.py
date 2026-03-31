@@ -92,3 +92,4 @@ def login():
                 user = cur.fetchone()
                 if user:
                     stored_hash = user[2]
+                    if isinstance(stored_hash, memoryview):
