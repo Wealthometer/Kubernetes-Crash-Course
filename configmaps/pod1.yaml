@@ -4,3 +4,4 @@ metadata:
   name: mysql-pod
 spec:
   containers:
+  - name: mysql
