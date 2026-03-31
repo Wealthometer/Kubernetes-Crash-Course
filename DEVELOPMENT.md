@@ -26,3 +26,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
 ### Prerequisites
 
 - **Python 3.7+** (with pip)
+- **Node.js 16+** (with npm)
