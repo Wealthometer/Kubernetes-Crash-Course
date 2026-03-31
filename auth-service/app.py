@@ -97,3 +97,4 @@ def login():
                     if bcrypt.checkpw(password_bytes, stored_hash):
                         token = jwt.encode({
                             'username': username,
+                            'exp': datetime.datetime.utcnow() + datetime.timedelta(hours=24)
