@@ -12,3 +12,4 @@ curl -X DELETE 'http://localhost:8080/apis/apps/v1/namespaces/default/replicaset
 
 ```
 
+```
