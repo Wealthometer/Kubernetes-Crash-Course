@@ -22,3 +22,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
 ```
 
 ## 🚀 Local Development Setup
+
