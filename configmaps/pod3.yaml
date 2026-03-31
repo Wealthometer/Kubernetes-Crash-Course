@@ -36,3 +36,4 @@ spec:
                 name: kubesimplify-configmap
                 key: database_name
         ports:
+          - containerPort: 3306
