@@ -19,3 +19,4 @@ spec:
         - containerPort: 80
         env:
         - name: ENVIRONMENT
+          value: "development"  
