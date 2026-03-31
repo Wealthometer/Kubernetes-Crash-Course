@@ -34,3 +34,4 @@ kind: Role
 metadata:
   namespace: default
   name: config-reader
+rules:
