@@ -18,3 +18,4 @@ Frontend (React:3000)
     ↓
 Auth Service (Flask:8080) ← → PostgreSQL (5432)
     ↓
+Game Service (Flask:8081) ← → PostgreSQL (5432)
