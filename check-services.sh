@@ -90,3 +90,4 @@ if command -v node >/dev/null 2>&1; then
 else
     echo -e "${RED}❌ Node.js is not installed${NC}"
 fi
+
