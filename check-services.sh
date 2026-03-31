@@ -103,3 +103,4 @@ echo "=================================="
 
 if ! docker ps | grep -q gamehub-postgres; then
     echo -e "${YELLOW}1. Start services: ./start-local.sh${NC}"
+fi
