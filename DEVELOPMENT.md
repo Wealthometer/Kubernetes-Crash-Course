@@ -44,3 +44,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
    ./start-local.sh
    ```
 
+3. **Access the application**
