@@ -81,3 +81,4 @@ if command -v python3 >/dev/null 2>&1; then
     echo -e "${GREEN}✅ Python3 is installed ($(python3 --version))${NC}"
 elif command -v python >/dev/null 2>&1; then
     echo -e "${GREEN}✅ Python is installed ($(python --version))${NC}"
+else
