@@ -52,3 +52,4 @@ subjects:
 roleRef:
   kind: Role
   name: config-reader
+  apiGroup: rbac.authorization.k8s.io
