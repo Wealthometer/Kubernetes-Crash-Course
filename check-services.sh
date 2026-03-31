@@ -75,3 +75,4 @@ check_service "Frontend" "http://localhost:3000"
 check_service "Auth Service" "http://localhost:8080"
 check_service "Game Service" "http://localhost:8081"
 
+# Check Python/Node
