@@ -11,3 +11,4 @@ spec:
       labels:
         app: mysql
     spec:
+      containers:
