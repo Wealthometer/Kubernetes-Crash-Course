@@ -50,3 +50,4 @@ subjects:
   name: default 
   namespace: default
 roleRef:
+  kind: Role
