@@ -20,3 +20,4 @@ spec:
       app: config-reader
   template:
     metadata:
+      labels:
