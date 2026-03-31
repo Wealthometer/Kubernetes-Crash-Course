@@ -17,3 +17,4 @@ spec:
         env:
           - name: MYSQL_ROOT_PASSWORD
             valueFrom:
+              secretKeyRef:
