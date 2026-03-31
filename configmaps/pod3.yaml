@@ -37,3 +37,4 @@ spec:
                 key: database_name
         ports:
           - containerPort: 3306
+        volumeMounts:
