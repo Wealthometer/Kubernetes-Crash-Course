@@ -65,3 +65,4 @@ You will all getting terminated and new ones getting created leading to little d
 
 Canary Deployment - Usually its done with Gateway API, service mesh etc but with deployment you can simulate like below:
 ```
+kubectl apply -f canary-svc.yaml
