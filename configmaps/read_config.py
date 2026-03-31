@@ -12,3 +12,4 @@ def main():
         print("ConfigMap data:")
         for key, value in config_map.data.items():
             print(f"{key}: {value}")
+    except client.exceptions.ApiException as e:
