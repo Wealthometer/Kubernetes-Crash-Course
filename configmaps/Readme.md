@@ -18,3 +18,4 @@ volumes:
   hostPath:
     path: /etc/kubernetes/enc
     type: DirectoryOrCreate
+
