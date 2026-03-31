@@ -14,3 +14,4 @@ def main():
             print(f"{key}: {value}")
     except client.exceptions.ApiException as e:
         print(f"Exception when calling CoreV1Api->read_namespaced_config_map: {e}")
+
