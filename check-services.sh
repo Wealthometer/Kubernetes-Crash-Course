@@ -56,3 +56,4 @@ check_port 3000 "Frontend"
 check_port 8080 "Auth Service"
 check_port 8081 "Game Service"
 check_port 5432 "PostgreSQL"
+
