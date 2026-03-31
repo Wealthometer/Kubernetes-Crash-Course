@@ -34,3 +34,4 @@ def connect_to_db():
             conn = psycopg2.connect(database_url)
             print("✅ Successfully connected to the database")
             return conn
+        except psycopg2.OperationalError as e:
