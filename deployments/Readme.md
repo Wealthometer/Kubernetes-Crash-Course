@@ -51,3 +51,4 @@ Scale deployment, you can also do `kubectl edit deployment`
 ```
 kubectl scale deployment/course --replicas=6
 kubectl rollout pause deployment/course
+```
