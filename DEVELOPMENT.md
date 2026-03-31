@@ -74,3 +74,4 @@ docker exec -i gamehub-postgres psql -U user -d gamehub < init.sql
 ```
 
 #### 2. Auth Service Setup
+```bash
