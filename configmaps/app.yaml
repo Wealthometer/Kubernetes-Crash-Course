@@ -8,3 +8,4 @@ data:
   another.property: "Just another example."
 
 ---
+apiVersion: apps/v1
