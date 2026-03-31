@@ -21,3 +21,4 @@ spec:
         - name: ENVIRONMENT
           value: "development"  
         volumeMounts:
+        - name: config-volume
