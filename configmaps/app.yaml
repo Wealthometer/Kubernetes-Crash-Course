@@ -4,3 +4,4 @@ metadata:
   name: app-config
   namespace: default
 data:
+  example.property: "Hello, world!"
