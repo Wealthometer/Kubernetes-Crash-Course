@@ -24,3 +24,4 @@ volumes:
 - Test the secret 
 
 ```
+kubectl create secret generic demo-secret --from-literal=password=KubeRocks
