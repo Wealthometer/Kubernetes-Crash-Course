@@ -35,3 +35,4 @@ metadata:
   namespace: default
   name: config-reader
 rules:
+- apiGroups: [""]
