@@ -22,3 +22,4 @@ if command -v docker >/dev/null 2>&1; then
     fi
 else
     echo -e "${RED}❌ Docker is not installed${NC}"
+fi
