@@ -29,3 +29,4 @@ curl -X DELETE 'http://localhost:8080/apis/apps/v1/namespaces/default/replicaset
 Create deployment
 ```
 kubectl create deploy course --image nginx --replicas 3 --port 80
+kubectl rollout status deployment course
