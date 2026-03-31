@@ -22,3 +22,4 @@ spec:
           value: "development"  
         volumeMounts:
         - name: config-volume
+          mountPath: /etc/config
