@@ -99,3 +99,4 @@ def login():
                             'username': username,
                             'exp': datetime.datetime.utcnow() + datetime.timedelta(hours=24)
                         }, SECRET_KEY, algorithm="HS256")
+                        if isinstance(token, bytes):
