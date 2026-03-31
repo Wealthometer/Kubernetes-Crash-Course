@@ -18,3 +18,4 @@ spec:
             name: kubesimplify-configmap
             key: database_name
       - name: MYSQL_PASSWORD
+        value: demo123  # Specify a strong password.
