@@ -29,3 +29,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
 - **Node.js 16+** (with npm)
 - **Docker** (for PostgreSQL)
 - **Git**
+
