@@ -49,3 +49,4 @@ check_port() {
         echo -e "${GREEN}✅ Port $port ($service) is in use${NC}"
     else
         echo -e "${RED}❌ Port $port ($service) is free${NC}"
+    fi
