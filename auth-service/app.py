@@ -47,3 +47,4 @@ def register():
     username = data.get('username')
     password = data.get('password')
 
+    if not username or len(username) < 3:
