@@ -8,3 +8,4 @@ spec:
     type: Recreate
   selector:
     matchLabels:
+      app: demo
