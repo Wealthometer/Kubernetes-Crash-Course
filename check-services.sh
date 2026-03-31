@@ -38,3 +38,4 @@ else
     echo -e "${RED}❌ PostgreSQL container not found${NC}"
     echo -e "${YELLOW}💡 Run './start-local.sh' to start services${NC}"
 fi
+
