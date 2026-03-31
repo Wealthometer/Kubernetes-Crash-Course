@@ -99,3 +99,4 @@ python app.py
 cd game-service
 
 # Create virtual environment
+python3 -m venv venv
