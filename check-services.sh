@@ -50,3 +50,4 @@ check_port() {
     else
         echo -e "${RED}❌ Port $port ($service) is free${NC}"
     fi
+}
