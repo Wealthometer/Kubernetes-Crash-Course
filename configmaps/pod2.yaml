@@ -16,3 +16,4 @@ spec:
       - name: web-app-container
         image: nginx  
         ports:
+        - containerPort: 80
