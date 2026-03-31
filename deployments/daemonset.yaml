@@ -13,3 +13,4 @@ spec:
       labels:
         name: nginx
     spec:
+      containers:
