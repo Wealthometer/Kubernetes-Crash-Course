@@ -33,3 +33,4 @@ yarn-error.log*
 # Kiro workspace files
 .kiro/
 
+# OS generated files
