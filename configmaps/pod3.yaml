@@ -8,3 +8,4 @@ spec:
       app: mysql
   template:
     metadata:
+      labels:
