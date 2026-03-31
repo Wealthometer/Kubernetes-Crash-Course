@@ -44,3 +44,4 @@ def connect_to_db():
 @app.route('/register', methods=['POST'])
 def register():
     data = request.get_json()
+    username = data.get('username')
