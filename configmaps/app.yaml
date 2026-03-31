@@ -29,3 +29,4 @@ spec:
         imagePullPolicy: Always
 
 ---
+apiVersion: rbac.authorization.k8s.io/v1
