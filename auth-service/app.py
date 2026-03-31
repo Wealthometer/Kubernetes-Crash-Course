@@ -41,3 +41,4 @@ def connect_to_db():
             else:
                 raise Exception("Could not connect to the database after maximum retries")
 
+@app.route('/register', methods=['POST'])
