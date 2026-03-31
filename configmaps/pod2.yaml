@@ -4,3 +4,4 @@ metadata:
   name: my-web-app
 spec:
   replicas: 1
+  selector:
