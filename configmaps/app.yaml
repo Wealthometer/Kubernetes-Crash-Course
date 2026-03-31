@@ -39,3 +39,4 @@ rules:
   resources: ["configmaps"]
   verbs: ["get", "list", "watch"]
 
+---
