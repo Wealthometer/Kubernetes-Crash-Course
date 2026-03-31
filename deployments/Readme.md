@@ -33,3 +33,4 @@ kubectl rollout status deployment course
 ```
 Update image 
 ```
+kubectl set image deploy course nginx=nginx:1.14.a --record
