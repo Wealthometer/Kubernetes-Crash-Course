@@ -59,3 +59,4 @@ kubectl apply -f recreate.yaml
 ```
 Update the image
 ```
+kubectl set image deploy/demo-deployment demo=nginx:14.0
