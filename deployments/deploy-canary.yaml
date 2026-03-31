@@ -5,3 +5,4 @@ metadata:
 spec:
   replicas: 9
   selector:
+    matchLabels:
