@@ -11,3 +11,4 @@ echo -e "${BLUE}🔍 GameHub Service Status Check${NC}"
 echo "=================================="
 
 # Check Docker
+echo -e "\n${BLUE}Docker Status:${NC}"
