@@ -34,3 +34,4 @@ spec:
             valueFrom:
               configMapKeyRef:
                 name: kubesimplify-configmap
+                key: database_name
