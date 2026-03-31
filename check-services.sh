@@ -44,3 +44,4 @@ echo -e "\n${BLUE}Port Status:${NC}"
 check_port() {
     local port=$1
     local service=$2
+    
