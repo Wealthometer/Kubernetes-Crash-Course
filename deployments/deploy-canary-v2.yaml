@@ -3,3 +3,4 @@ kind: Deployment
 metadata:
   name: nginx-canary
 spec:
+  replicas: 1
