@@ -2,4 +2,5 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: demo-deployment
+spec:
   replicas: 3
