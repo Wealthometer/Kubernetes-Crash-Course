@@ -62,3 +62,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
 docker run --name gamehub-postgres \
   -e POSTGRES_DB=gamehub \
   -e POSTGRES_USER=user \
+  -e POSTGRES_PASSWORD=password \
