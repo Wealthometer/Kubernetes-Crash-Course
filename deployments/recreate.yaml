@@ -4,3 +4,4 @@ metadata:
   name: demo-deployment
 spec:
   replicas: 3
+  strategy:
