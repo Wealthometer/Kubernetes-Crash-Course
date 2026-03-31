@@ -8,3 +8,4 @@ resources:
           keys:
             - name: key1
               secret: kNsrVjfukEpdlv830ObleTZERGAvnVm/n5g4Z5yQ0RM=
+      - identity: {}
