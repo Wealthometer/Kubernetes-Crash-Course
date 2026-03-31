@@ -40,3 +40,4 @@ export ETCDCTL_KEY=/etc/kubernetes/pki/etcd/server.key
 etcdctl get /registry/secrets/default/demo-secret | hexdump -C
 
 ```
+It should start with `k8s:enc:aescbc:v1:key1:`
