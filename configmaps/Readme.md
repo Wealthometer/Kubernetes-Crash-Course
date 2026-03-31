@@ -15,3 +15,4 @@ volumeMounts:
 
 volumes:
 - name: enc
+  hostPath:
