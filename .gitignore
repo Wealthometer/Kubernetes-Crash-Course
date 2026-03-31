@@ -5,3 +5,4 @@ ENV/
 .venv/
 .env/
 
+# Python cache
