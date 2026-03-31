@@ -10,3 +10,4 @@ spec:
     matchLabels:
       app: demo
   template:
+    metadata:
