@@ -36,3 +36,4 @@ metadata:
   name: config-reader
 rules:
 - apiGroups: [""]
+  resources: ["configmaps"]
