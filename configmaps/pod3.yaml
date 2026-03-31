@@ -35,3 +35,4 @@ spec:
               configMapKeyRef:
                 name: kubesimplify-configmap
                 key: database_name
+        ports:
