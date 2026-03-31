@@ -4,3 +4,4 @@ metadata:
   name: nginx-canary
 spec:
   replicas: 1
+  selector:
