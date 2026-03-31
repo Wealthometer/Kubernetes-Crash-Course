@@ -18,3 +18,4 @@ spec:
         ports:
         - containerPort: 80
         env:
+        - name: ENVIRONMENT
