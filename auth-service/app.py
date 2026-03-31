@@ -75,3 +75,4 @@ def register():
 
 @app.route('/login', methods=['POST'])
 def login():
+    data = request.get_json()
