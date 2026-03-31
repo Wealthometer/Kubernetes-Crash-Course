@@ -3,3 +3,4 @@ kind: Pod
 metadata:
   name: bootcamp-demo-pod
 spec:
+  containers:
