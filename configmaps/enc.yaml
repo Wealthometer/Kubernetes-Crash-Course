@@ -3,3 +3,4 @@ kind: EncryptionConfiguration
 resources:
   - resources:
       - secrets
+    providers:
