@@ -79,3 +79,4 @@ def login():
     username = data.get('username')
     password = data.get('password')
 
+    if not username or not password:
