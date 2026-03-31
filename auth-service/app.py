@@ -83,3 +83,4 @@ def login():
         return jsonify({"error": "Username and password are required"}), 400
 
     password_bytes = password.encode('utf-8')
+
