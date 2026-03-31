@@ -23,3 +23,4 @@ spec:
         value: demo345 # You should change this value.
     ports:
       - containerPort: 3306
+        name: mysql
