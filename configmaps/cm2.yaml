@@ -14,3 +14,4 @@ data:
 apiVersion: v1
 kind: ConfigMap
 metadata:
+  name: app-config-prod
