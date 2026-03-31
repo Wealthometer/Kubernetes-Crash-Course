@@ -20,3 +20,4 @@ if command -v docker >/dev/null 2>&1; then
         echo -e "${RED}❌ Docker is not running${NC}"
         echo -e "${YELLOW}💡 Please start Docker Desktop${NC}"
     fi
+else
