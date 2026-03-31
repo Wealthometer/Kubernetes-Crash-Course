@@ -81,3 +81,4 @@ def login():
 
     if not username or not password:
         return jsonify({"error": "Username and password are required"}), 400
+
