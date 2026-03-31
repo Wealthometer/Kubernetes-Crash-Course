@@ -14,3 +14,4 @@ metadata:
   name: config-reader-deployment
   namespace: default
 spec:
+  replicas: 1
