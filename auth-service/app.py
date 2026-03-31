@@ -65,3 +65,4 @@ def register():
                 )
         return jsonify({"message": "User registered successfully"}), 201
 
+    except psycopg2.IntegrityError:
