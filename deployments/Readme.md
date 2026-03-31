@@ -56,3 +56,4 @@ kubectl rollout pause deployment/course
 For Recreate strategy
 ```
 kubectl apply -f recreate.yaml
+```
