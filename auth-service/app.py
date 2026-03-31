@@ -19,3 +19,4 @@ SECRET_KEY = "your-secret-key"
 def connect_to_db():
     db_user = os.getenv('POSTGRES_USER')
     db_password = os.getenv('POSTGRES_PASSWORD')
+    db_host = os.getenv('POSTGRES_HOST')
