@@ -45,3 +45,4 @@ check_port() {
     local port=$1
     local service=$2
     
+    if lsof -i :$port >/dev/null 2>&1; then
