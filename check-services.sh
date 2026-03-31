@@ -89,3 +89,4 @@ if command -v node >/dev/null 2>&1; then
     echo -e "${GREEN}✅ Node.js is installed ($(node --version))${NC}"
 else
     echo -e "${RED}❌ Node.js is not installed${NC}"
+fi
