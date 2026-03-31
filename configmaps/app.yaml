@@ -24,3 +24,4 @@ spec:
         app: config-reader
     spec:
       containers:
+      - name: config-reader
