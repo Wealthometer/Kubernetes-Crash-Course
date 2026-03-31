@@ -15,3 +15,4 @@ GameHub is a microservices-based gaming platform built with:
 ### Service Communication
 ```
 Frontend (React:3000) 
+    ↓
