@@ -16,3 +16,4 @@ spec:
     spec:
       containers:
       - name: demo
+        image: nginx:v1
