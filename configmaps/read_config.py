@@ -5,3 +5,4 @@ def main():
 
     v1 = client.CoreV1Api()
     config_map_name = 'app-config'
+    namespace = 'default'
