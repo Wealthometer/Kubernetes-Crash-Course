@@ -40,3 +40,4 @@ def connect_to_db():
                 time.sleep(retry_delay)
             else:
                 raise Exception("Could not connect to the database after maximum retries")
+
