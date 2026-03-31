@@ -12,3 +12,4 @@ spec:
     metadata:
       labels:
         name: nginx
+    spec:
