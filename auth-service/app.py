@@ -105,3 +105,4 @@ def login():
                     else:
                         return jsonify({"error": "Invalid credentials"}), 401
                 else:
+                    return jsonify({"error": "User not found"}), 404
