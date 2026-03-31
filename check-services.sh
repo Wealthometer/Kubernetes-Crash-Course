@@ -52,3 +52,4 @@ check_port() {
     fi
 }
 
+check_port 3000 "Frontend"
