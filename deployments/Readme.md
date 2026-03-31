@@ -6,3 +6,4 @@ Delete RS
 ```
 kubectl proxy --port=8080
 
+curl -X DELETE 'http://localhost:8080/apis/apps/v1/namespaces/default/replicasets/nginx-rs' \
