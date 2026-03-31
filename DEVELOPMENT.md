@@ -49,3 +49,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
    - Auth Service: http://localhost:8080
    - Game Service: http://localhost:8081
 
+4. **Stop all services**
