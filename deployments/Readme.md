@@ -47,3 +47,4 @@ Rollback deployment when something foes wrong, you can also pause a rollout
 kubectl rollout undo deployment/course --to-revision=1
 ```
 Scale deployment, you can also do `kubectl edit deployment`
+
