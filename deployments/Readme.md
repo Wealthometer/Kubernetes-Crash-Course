@@ -39,3 +39,4 @@ kubectl annotate deployment/course kubernetes.io/change-cause="Update to nginx:1
 ```
 See the rollout history 
 ```
+kubectl rollout history deploy/course
