@@ -97,3 +97,4 @@ else
     echo -e "${RED}❌ npm is not installed${NC}"
 fi
 
+# Recommendations
