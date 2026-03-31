@@ -5,3 +5,4 @@ psycopg2-binary==2.9.9
 flask-cors==4.0.1
 gunicorn==22.0.0  # Added for production WSGI server
 prometheus-flask-exporter==0.22.0
+
