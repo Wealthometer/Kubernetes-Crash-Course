@@ -71,3 +71,4 @@ check_service() {
     fi
 }
 
+check_service "Frontend" "http://localhost:3000"
