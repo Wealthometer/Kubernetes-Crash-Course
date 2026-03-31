@@ -13,3 +13,4 @@ volumeMounts:
   mountPath: /etc/kubernetes/enc
   readOnly: true
 
+volumes:
