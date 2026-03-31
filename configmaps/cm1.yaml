@@ -4,3 +4,4 @@ metadata:
   name: kubesimplify-configmap
 data:
   username: "saiyam"
+  database_name: "exampledb"
