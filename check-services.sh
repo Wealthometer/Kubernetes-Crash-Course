@@ -100,3 +100,4 @@ fi
 # Recommendations
 echo -e "\n${BLUE}💡 Recommendations:${NC}"
 echo "=================================="
+
