@@ -16,3 +16,4 @@ GameHub is a microservices-based gaming platform built with:
 ```
 Frontend (React:3000) 
     ↓
+Auth Service (Flask:8080) ← → PostgreSQL (5432)
