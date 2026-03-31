@@ -16,3 +16,4 @@ volumeMounts:
 volumes:
 - name: enc
   hostPath:
+    path: /etc/kubernetes/enc
