@@ -8,3 +8,4 @@ def main():
     namespace = 'default'
 
     try:
+        config_map = v1.read_namespaced_config_map(config_map_name, namespace)
