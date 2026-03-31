@@ -100,3 +100,4 @@ def login():
                             'exp': datetime.datetime.utcnow() + datetime.timedelta(hours=24)
                         }, SECRET_KEY, algorithm="HS256")
                         if isinstance(token, bytes):
+                            token = token.decode('utf-8')
