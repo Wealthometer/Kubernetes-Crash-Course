@@ -53,3 +53,4 @@ kubectl scale deployment/course --replicas=6
 kubectl rollout pause deployment/course
 ```
 
+For Recreate strategy
