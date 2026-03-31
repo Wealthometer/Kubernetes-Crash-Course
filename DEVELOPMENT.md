@@ -57,3 +57,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
 ### Manual Setup (Step by Step)
 
 #### 1. Database Setup
+```bash
