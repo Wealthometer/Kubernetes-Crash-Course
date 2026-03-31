@@ -16,3 +16,4 @@ kind: ConfigMap
 metadata:
   name: app-config-prod
 data:
+  settings.properties: |
