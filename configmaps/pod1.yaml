@@ -22,3 +22,4 @@ spec:
       - name: MYSQL_ROOT_PASSWORD
         value: demo345 # You should change this value.
     ports:
+      - containerPort: 3306
