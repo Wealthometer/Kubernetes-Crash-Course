@@ -98,3 +98,4 @@ python app.py
 ```bash
 cd game-service
 
+# Create virtual environment
