@@ -30,3 +30,4 @@ Create deployment
 ```
 kubectl create deploy course --image nginx --replicas 3 --port 80
 kubectl rollout status deployment course
+```
