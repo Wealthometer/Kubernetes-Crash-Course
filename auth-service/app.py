@@ -96,3 +96,4 @@ def login():
                         stored_hash = stored_hash.tobytes()
                     if bcrypt.checkpw(password_bytes, stored_hash):
                         token = jwt.encode({
+                            'username': username,
