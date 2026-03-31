@@ -72,3 +72,4 @@ kubectl get pods -o=custom-columns=NAME:.metadata.name,IMAGE:.spec.containers[*]
 ```
 Check the endpoints for the service created and you will see all in the endpoints ready to be served traffic. 
 
+## Probes 
