@@ -83,3 +83,4 @@ elif command -v python >/dev/null 2>&1; then
     echo -e "${GREEN}✅ Python is installed ($(python --version))${NC}"
 else
     echo -e "${RED}❌ Python is not installed${NC}"
+fi
