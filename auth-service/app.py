@@ -26,3 +26,4 @@ def connect_to_db():
         raise Exception("Database environment variables are not fully set.")
 
     database_url = f"postgresql://{db_user}:{db_password}@{db_host}:5432/{db_name}"
+
