@@ -4,3 +4,4 @@ metadata:
   name: nginx-stable
 spec:
   replicas: 9
+  selector:
