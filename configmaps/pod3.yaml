@@ -4,3 +4,4 @@ metadata:
   name: mysql
 spec:
   selector:
+    matchLabels:
