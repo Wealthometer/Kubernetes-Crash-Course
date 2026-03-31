@@ -22,3 +22,4 @@ spec:
                 key: password
           - name: MYSQL_USER
             valueFrom:
+              configMapKeyRef:
