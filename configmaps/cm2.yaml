@@ -6,3 +6,4 @@ data:
   settings.properties: |
     # Development Configuration
     debug=true
+    database_url=http://dev-db.example.com
