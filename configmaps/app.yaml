@@ -25,3 +25,4 @@ spec:
     spec:
       containers:
       - name: config-reader
+        image: ttl.sh/hindi-boot:1h
