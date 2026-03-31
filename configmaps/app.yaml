@@ -47,3 +47,4 @@ metadata:
   namespace: default
 subjects:
 - kind: ServiceAccount
+  name: default 
