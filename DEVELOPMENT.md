@@ -52,3 +52,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
 4. **Stop all services**
    ```bash
    ./stop-local.sh
+   ```
