@@ -64,3 +64,4 @@ check_service() {
     local url=$2
     
     echo -n "Checking $name... "
+    if curl -s --max-time 3 "$url" >/dev/null 2>&1; then
