@@ -6,3 +6,4 @@ metadata:
     app: nginx
 spec:
   containers:
+  - name: nginx
