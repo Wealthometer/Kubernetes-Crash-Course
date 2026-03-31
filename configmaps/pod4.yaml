@@ -5,3 +5,4 @@ metadata:
 spec:
   containers:
   - name: bootcamp-demo
+    image: saiyam911/course-demo:v1
