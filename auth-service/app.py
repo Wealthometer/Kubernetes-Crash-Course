@@ -84,3 +84,4 @@ def login():
 
     password_bytes = password.encode('utf-8')
 
+    try:
