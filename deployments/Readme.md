@@ -63,3 +63,4 @@ kubectl set image deploy/demo-deployment demo=nginx:14.0
 ```
 You will all getting terminated and new ones getting created leading to little downtime.
 
+Canary Deployment - Usually its done with Gateway API, service mesh etc but with deployment you can simulate like below:
