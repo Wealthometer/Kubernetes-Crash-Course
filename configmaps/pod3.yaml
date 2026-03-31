@@ -20,3 +20,4 @@ spec:
               secretKeyRef:
                 name: mysql-root-pass
                 key: password
+          - name: MYSQL_USER
