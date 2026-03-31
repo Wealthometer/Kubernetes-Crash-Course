@@ -19,3 +19,4 @@ spec:
             key: database_name
       - name: MYSQL_PASSWORD
         value: demo123  # Specify a strong password.
+      - name: MYSQL_ROOT_PASSWORD
