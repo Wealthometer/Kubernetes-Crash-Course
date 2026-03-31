@@ -30,3 +30,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
 - **Docker** (for PostgreSQL)
 - **Git**
 
+### Quick Start
