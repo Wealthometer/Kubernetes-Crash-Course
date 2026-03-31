@@ -77,3 +77,4 @@ check_service "Game Service" "http://localhost:8081"
 
 # Check Python/Node
 echo -e "\n${BLUE}Development Tools:${NC}"
+if command -v python3 >/dev/null 2>&1; then
