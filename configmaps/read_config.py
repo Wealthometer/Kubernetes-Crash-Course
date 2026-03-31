@@ -16,3 +16,4 @@ def main():
         print(f"Exception when calling CoreV1Api->read_namespaced_config_map: {e}")
 
 if __name__ == '__main__':
+    main()
