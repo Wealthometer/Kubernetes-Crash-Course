@@ -57,3 +57,4 @@ For Recreate strategy
 ```
 kubectl apply -f recreate.yaml
 ```
+Update the image
