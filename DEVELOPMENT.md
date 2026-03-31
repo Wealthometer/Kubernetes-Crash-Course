@@ -85,3 +85,4 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Set environment variables
+export POSTGRES_HOST=localhost
