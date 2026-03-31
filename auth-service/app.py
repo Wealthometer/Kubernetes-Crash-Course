@@ -31,3 +31,4 @@ def connect_to_db():
     retry_delay = 5  # seconds
     for attempt in range(max_retries):
         try:
+            conn = psycopg2.connect(database_url)
