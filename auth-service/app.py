@@ -67,3 +67,4 @@ def register():
 
     except psycopg2.IntegrityError:
         return jsonify({"error": "Username already exists"}), 409
+    except Exception as e:
