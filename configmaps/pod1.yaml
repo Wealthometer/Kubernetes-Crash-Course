@@ -3,3 +3,4 @@ kind: Pod
 metadata:
   name: mysql-pod
 spec:
+  containers:
