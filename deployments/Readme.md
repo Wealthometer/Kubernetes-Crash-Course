@@ -42,4 +42,5 @@ See the rollout history
 kubectl rollout history deploy/course
 kubectl rollout history deploy/course --revision=2
 ```
+Rollback deployment when something foes wrong, you can also pause a rollout
 ```
