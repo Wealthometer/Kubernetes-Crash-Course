@@ -102,3 +102,4 @@ def login():
                         if isinstance(token, bytes):
                             token = token.decode('utf-8')
                         return jsonify({"token": token}), 200
+                    else:
