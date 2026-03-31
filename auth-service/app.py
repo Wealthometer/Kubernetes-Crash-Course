@@ -22,3 +22,4 @@ def connect_to_db():
     db_host = os.getenv('POSTGRES_HOST')
     db_name = os.getenv('POSTGRES_DB')
 
+    if not all([db_user, db_password, db_host, db_name]):
