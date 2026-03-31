@@ -101,3 +101,4 @@ fi
 echo -e "\n${BLUE}💡 Recommendations:${NC}"
 echo "=================================="
 
+if ! docker ps | grep -q gamehub-postgres; then
