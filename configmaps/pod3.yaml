@@ -13,3 +13,4 @@ spec:
     spec:
       containers:
       - name: mysql
+        image: mysql:5.7
