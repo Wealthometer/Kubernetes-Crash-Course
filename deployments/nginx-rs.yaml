@@ -14,3 +14,4 @@ spec:
       labels:
         app: nginx
     spec:
+      containers:
