@@ -12,3 +12,4 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: config-reader-deployment
+  namespace: default
