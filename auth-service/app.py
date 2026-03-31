@@ -103,3 +103,4 @@ def login():
                             token = token.decode('utf-8')
                         return jsonify({"token": token}), 200
                     else:
+                        return jsonify({"error": "Invalid credentials"}), 401
