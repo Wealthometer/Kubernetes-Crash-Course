@@ -4,3 +4,4 @@ metadata:
   name: nginx-rs
   labels:
     app: nginx
+spec:
