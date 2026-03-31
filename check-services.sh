@@ -67,3 +67,4 @@ check_service() {
     if curl -s --max-time 3 "$url" >/dev/null 2>&1; then
         echo -e "${GREEN}✅ Responding${NC}"
     else
+        echo -e "${RED}❌ Not responding${NC}"
