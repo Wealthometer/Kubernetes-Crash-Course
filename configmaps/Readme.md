@@ -4,3 +4,4 @@
 - Edit `/etc/kubernetes/manifests/kube-apiserver.yaml` to ad:
 
 ```
+- --encryption-provider-config=/etc/kubernetes/enc/enc.yaml
