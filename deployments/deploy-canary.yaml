@@ -10,3 +10,4 @@ spec:
       version: "1.17"
   template:
     metadata:
+      labels:
