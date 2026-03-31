@@ -61,3 +61,4 @@ Update the image
 ```
 kubectl set image deploy/demo-deployment demo=nginx:14.0
 ```
+You will all getting terminated and new ones getting created leading to little downtime.
