@@ -86,3 +86,4 @@ pip install -r requirements.txt
 
 # Set environment variables
 export POSTGRES_HOST=localhost
+export POSTGRES_DB=gamehub
