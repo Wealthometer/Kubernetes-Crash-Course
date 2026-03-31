@@ -27,3 +27,4 @@ spec:
       - name: config-reader
         image: ttl.sh/hindi-boot:1h
         imagePullPolicy: Always
+
