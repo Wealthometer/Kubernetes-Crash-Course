@@ -50,3 +50,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
    - Game Service: http://localhost:8081
 
 4. **Stop all services**
+   ```bash
