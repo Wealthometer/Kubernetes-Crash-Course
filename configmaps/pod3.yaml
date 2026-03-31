@@ -30,3 +30,4 @@ spec:
               secretKeyRef:
                 name: mysql-user-pass
                 key: password
+          - name: MYSQL_DATABASE
