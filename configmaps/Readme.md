@@ -25,3 +25,4 @@ volumes:
 
 ```
 kubectl create secret generic demo-secret --from-literal=password=KubeRocks
+
