@@ -4,3 +4,4 @@ metadata:
   name: bootcamp-demo-pod
 spec:
   containers:
+  - name: bootcamp-demo
