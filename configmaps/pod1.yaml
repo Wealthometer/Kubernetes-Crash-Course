@@ -20,3 +20,4 @@ spec:
       - name: MYSQL_PASSWORD
         value: demo123  # Specify a strong password.
       - name: MYSQL_ROOT_PASSWORD
+        value: demo345 # You should change this value.
