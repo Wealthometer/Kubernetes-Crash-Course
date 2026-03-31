@@ -91,3 +91,4 @@ def login():
                 cur.execute("SELECT * FROM users WHERE username = %s", (username,))
                 user = cur.fetchone()
                 if user:
+                    stored_hash = user[2]
