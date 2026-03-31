@@ -112,3 +112,4 @@ def login():
         if conn:
             conn.close()
 
+if __name__ == '__main__':
