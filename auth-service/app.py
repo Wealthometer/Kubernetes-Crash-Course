@@ -45,3 +45,4 @@ def connect_to_db():
 def register():
     data = request.get_json()
     username = data.get('username')
+    password = data.get('password')
