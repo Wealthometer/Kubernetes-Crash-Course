@@ -14,3 +14,4 @@ spec:
         app: nginx
         version: "1.18"
     spec:
+      containers:
