@@ -17,3 +17,4 @@ curl -X DELETE 'http://localhost:8080/apis/apps/v1/namespaces/default/replicaset
      -d '{"kind":"DeleteOptions","apiVersion":"v1","propagationPolicy":"Background"}' \
      -H "Content-Type: application/json"
 
+```
