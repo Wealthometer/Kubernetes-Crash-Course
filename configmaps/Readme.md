@@ -14,3 +14,4 @@ volumeMounts:
   readOnly: true
 
 volumes:
+- name: enc
