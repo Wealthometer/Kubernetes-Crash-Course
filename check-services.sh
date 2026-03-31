@@ -111,3 +111,4 @@ fi
 
 echo -e "${YELLOW}3. Run tests: ./test-local.sh${NC}"
 echo -e "${YELLOW}4. Access frontend: http://localhost:3000${NC}"
+echo -e "${YELLOW}5. Stop services: ./stop-local.sh${NC}"
