@@ -9,3 +9,4 @@ spec:
       app: my-web-app
   template:
     metadata:
+      labels:
