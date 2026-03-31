@@ -67,3 +67,4 @@ Canary Deployment - Usually its done with Gateway API, service mesh etc but with
 ```
 kubectl apply -f canary-svc.yaml
 kubectl apply -f deploy-canary.yaml
+kubectl apply -f deploy -canary-v2.yaml
