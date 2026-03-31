@@ -85,3 +85,4 @@ else
     echo -e "${RED}❌ Python is not installed${NC}"
 fi
 
+if command -v node >/dev/null 2>&1; then
