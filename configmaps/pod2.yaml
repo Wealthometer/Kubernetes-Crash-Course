@@ -13,3 +13,4 @@ spec:
         app: my-web-app
     spec:
       containers:
+      - name: web-app-container
