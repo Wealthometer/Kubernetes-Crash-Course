@@ -50,3 +50,4 @@ def register():
     if not username or len(username) < 3:
         return jsonify({"error": "Username must be at least 3 characters long"}), 400
     if not password or len(password) < 6:
+        return jsonify({"error": "Password must be at least 6 characters long"}), 400
