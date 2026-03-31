@@ -7,3 +7,4 @@ This guide provides comprehensive instructions for setting up, running, and test
 GameHub is a microservices-based gaming platform built with:
 
 - **Frontend**: React.js application with Tailwind CSS
+- **Auth Service**: Flask-based authentication service with JWT tokens
