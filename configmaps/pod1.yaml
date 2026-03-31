@@ -12,3 +12,4 @@ spec:
           configMapKeyRef:
             name: kubesimplify-configmap
             key: username
+      - name: MYSQL_DATABASE
