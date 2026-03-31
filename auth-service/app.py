@@ -86,3 +86,4 @@ def login():
 
     try:
         conn = connect_to_db()
+        with conn:
