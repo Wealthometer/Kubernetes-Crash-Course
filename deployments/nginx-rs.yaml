@@ -3,3 +3,4 @@ kind: ReplicaSet
 metadata:
   name: nginx-rs
   labels:
+    app: nginx
