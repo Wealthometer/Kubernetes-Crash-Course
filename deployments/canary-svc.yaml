@@ -6,3 +6,4 @@ spec:
   selector:
     app: nginx
   ports:
+    - protocol: TCP
