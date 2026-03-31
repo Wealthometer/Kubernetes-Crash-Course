@@ -28,3 +28,4 @@ def connect_to_db():
     database_url = f"postgresql://{db_user}:{db_password}@{db_host}:5432/{db_name}"
 
     max_retries = 10
+    retry_delay = 5  # seconds
