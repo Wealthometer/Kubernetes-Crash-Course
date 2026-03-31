@@ -42,3 +42,4 @@ spec:
             mountPath: /var/lib/mysql
       volumes:
         - name: mysql-storage
+          emptyDir: {}
