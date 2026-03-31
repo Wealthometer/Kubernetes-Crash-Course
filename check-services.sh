@@ -36,3 +36,4 @@ if docker ps | grep -q gamehub-postgres; then
     fi
 else
     echo -e "${RED}❌ PostgreSQL container not found${NC}"
+    echo -e "${YELLOW}💡 Run './start-local.sh' to start services${NC}"
