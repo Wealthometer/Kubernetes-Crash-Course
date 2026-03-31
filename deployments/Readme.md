@@ -5,3 +5,4 @@ Delete RS
 
 ```
 kubectl proxy --port=8080
+
