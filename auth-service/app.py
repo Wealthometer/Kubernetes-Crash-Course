@@ -64,3 +64,4 @@ def register():
                     (username, hashed)
                 )
         return jsonify({"message": "User registered successfully"}), 201
+
