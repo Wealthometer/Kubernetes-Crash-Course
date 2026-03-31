@@ -53,3 +53,4 @@ def register():
         return jsonify({"error": "Password must be at least 6 characters long"}), 400
 
     password_bytes = password.encode('utf-8')
+    hashed = bcrypt.hashpw(password_bytes, bcrypt.gensalt())
