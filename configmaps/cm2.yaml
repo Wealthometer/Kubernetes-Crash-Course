@@ -19,3 +19,4 @@ data:
   settings.properties: |
     # Production Configuration
     debug=false
+    database_url=http://prod-db.example.com
