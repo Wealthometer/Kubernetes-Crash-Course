@@ -69,3 +69,4 @@ docker run --name gamehub-postgres \
 # Wait for PostgreSQL to start
 sleep 10
 
+# Initialize database
