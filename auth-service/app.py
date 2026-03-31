@@ -93,3 +93,4 @@ def login():
                 if user:
                     stored_hash = user[2]
                     if isinstance(stored_hash, memoryview):
+                        stored_hash = stored_hash.tobytes()
