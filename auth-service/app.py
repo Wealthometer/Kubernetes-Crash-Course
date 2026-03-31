@@ -16,3 +16,4 @@ metrics = PrometheusMetrics(app)
 SECRET_KEY = "your-secret-key"
 
 # Function to establish DB connection with retry logic
+def connect_to_db():
