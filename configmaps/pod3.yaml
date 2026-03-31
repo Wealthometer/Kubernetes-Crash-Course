@@ -12,3 +12,4 @@ spec:
         app: mysql
     spec:
       containers:
+      - name: mysql
