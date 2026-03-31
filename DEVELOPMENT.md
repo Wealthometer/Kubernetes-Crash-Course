@@ -78,3 +78,4 @@ docker exec -i gamehub-postgres psql -U user -d gamehub < init.sql
 cd auth-service
 
 # Create virtual environment
+python3 -m venv venv
