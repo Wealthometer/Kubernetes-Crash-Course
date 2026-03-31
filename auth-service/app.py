@@ -33,3 +33,4 @@ def connect_to_db():
         try:
             conn = psycopg2.connect(database_url)
             print("✅ Successfully connected to the database")
+            return conn
