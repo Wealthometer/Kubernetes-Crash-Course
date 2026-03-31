@@ -39,3 +39,4 @@ else
     echo -e "${YELLOW}💡 Run './start-local.sh' to start services${NC}"
 fi
 
+# Check Ports
