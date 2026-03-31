@@ -45,3 +45,4 @@ kind: RoleBinding
 metadata:
   name: read-configmaps
   namespace: default
+subjects:
