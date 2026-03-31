@@ -3,3 +3,4 @@ kind: Pod
 metadata:
   name: nginx-pod
   labels:
+spec:
