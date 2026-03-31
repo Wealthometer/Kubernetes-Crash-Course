@@ -5,3 +5,4 @@ metadata:
 spec:
   selector:
     app: nginx
+  ports:
