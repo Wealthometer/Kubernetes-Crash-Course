@@ -63,3 +63,4 @@ def register():
                     "INSERT INTO users (username, password_hash) VALUES (%s, %s)",
                     (username, hashed)
                 )
+        return jsonify({"message": "User registered successfully"}), 201
