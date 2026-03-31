@@ -13,3 +13,4 @@ spec:
       labels:
         app: nginx
         version: "1.17"
+    spec:
