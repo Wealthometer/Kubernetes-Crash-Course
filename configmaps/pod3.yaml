@@ -28,3 +28,4 @@ spec:
           - name: MYSQL_PASSWORD
             valueFrom:
               secretKeyRef:
+                name: mysql-user-pass
