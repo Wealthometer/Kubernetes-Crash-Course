@@ -71,3 +71,4 @@ sleep 10
 
 # Initialize database
 docker exec -i gamehub-postgres psql -U user -d gamehub < init.sql
+```
