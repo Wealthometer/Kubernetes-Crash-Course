@@ -32,3 +32,4 @@ if docker ps | grep -q gamehub-postgres; then
     if docker exec gamehub-postgres pg_isready -U user -d gamehub >/dev/null 2>&1; then
         echo -e "${GREEN}✅ PostgreSQL is accepting connections${NC}"
     else
+        echo -e "${YELLOW}⚠️  PostgreSQL is starting up...${NC}"
