@@ -58,3 +58,4 @@ def register():
     try:
         conn = connect_to_db()
         with conn:
+            with conn.cursor() as cur:
