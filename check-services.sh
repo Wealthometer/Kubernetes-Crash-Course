@@ -69,3 +69,4 @@ check_service() {
     else
         echo -e "${RED}❌ Not responding${NC}"
     fi
+}
