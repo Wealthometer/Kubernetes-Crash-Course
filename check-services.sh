@@ -95,3 +95,4 @@ if command -v npm >/dev/null 2>&1; then
     echo -e "${GREEN}✅ npm is installed ($(npm --version))${NC}"
 else
     echo -e "${RED}❌ npm is not installed${NC}"
+fi
