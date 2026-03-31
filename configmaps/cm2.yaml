@@ -18,3 +18,4 @@ metadata:
 data:
   settings.properties: |
     # Production Configuration
+    debug=false
