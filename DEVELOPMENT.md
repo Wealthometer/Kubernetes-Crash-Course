@@ -4,4 +4,5 @@ This guide provides comprehensive instructions for setting up, running, and test
 
 ## 🏗️ Architecture Overview
 
+GameHub is a microservices-based gaming platform built with:
 
