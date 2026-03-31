@@ -90,3 +90,4 @@ def login():
             with conn.cursor() as cur:
                 cur.execute("SELECT * FROM users WHERE username = %s", (username,))
                 user = cur.fetchone()
+                if user:
