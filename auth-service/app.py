@@ -56,3 +56,4 @@ def register():
     hashed = bcrypt.hashpw(password_bytes, bcrypt.gensalt())
 
     try:
+        conn = connect_to_db()
