@@ -18,3 +18,4 @@ SECRET_KEY = "your-secret-key"
 # Function to establish DB connection with retry logic
 def connect_to_db():
     db_user = os.getenv('POSTGRES_USER')
+    db_password = os.getenv('POSTGRES_PASSWORD')
