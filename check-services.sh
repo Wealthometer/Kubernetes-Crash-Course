@@ -41,3 +41,4 @@ fi
 
 # Check Ports
 echo -e "\n${BLUE}Port Status:${NC}"
+check_port() {
