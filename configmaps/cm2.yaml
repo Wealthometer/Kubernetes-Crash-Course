@@ -4,3 +4,4 @@ metadata:
   name: app-config-dev
 data:
   settings.properties: |
+    # Development Configuration
