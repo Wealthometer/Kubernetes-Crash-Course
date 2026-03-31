@@ -27,3 +27,4 @@ fi
 # Check PostgreSQL Container
 echo -e "\n${BLUE}PostgreSQL Status:${NC}"
 if docker ps | grep -q gamehub-postgres; then
+    echo -e "${GREEN}✅ PostgreSQL container is running${NC}"
