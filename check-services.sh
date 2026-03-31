@@ -79,3 +79,4 @@ check_service "Game Service" "http://localhost:8081"
 echo -e "\n${BLUE}Development Tools:${NC}"
 if command -v python3 >/dev/null 2>&1; then
     echo -e "${GREEN}✅ Python3 is installed ($(python3 --version))${NC}"
+elif command -v python >/dev/null 2>&1; then
