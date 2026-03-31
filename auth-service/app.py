@@ -15,3 +15,4 @@ metrics = PrometheusMetrics(app)
 # JWT Secret Key
 SECRET_KEY = "your-secret-key"
 
+# Function to establish DB connection with retry logic
