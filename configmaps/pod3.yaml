@@ -33,3 +33,4 @@ spec:
           - name: MYSQL_DATABASE
             valueFrom:
               configMapKeyRef:
+                name: kubesimplify-configmap
