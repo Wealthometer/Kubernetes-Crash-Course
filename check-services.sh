@@ -110,3 +110,4 @@ if ! curl -s --max-time 3 "http://localhost:3000" >/dev/null 2>&1; then
 fi
 
 echo -e "${YELLOW}3. Run tests: ./test-local.sh${NC}"
+echo -e "${YELLOW}4. Access frontend: http://localhost:3000${NC}"
