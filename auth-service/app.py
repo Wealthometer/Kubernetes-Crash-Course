@@ -95,3 +95,4 @@ def login():
                     if isinstance(stored_hash, memoryview):
                         stored_hash = stored_hash.tobytes()
                     if bcrypt.checkpw(password_bytes, stored_hash):
+                        token = jwt.encode({
