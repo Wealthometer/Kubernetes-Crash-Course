@@ -13,3 +13,4 @@ CORS(app)
 metrics = PrometheusMetrics(app)
 
 # JWT Secret Key
+SECRET_KEY = "your-secret-key"
