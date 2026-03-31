@@ -92,3 +92,4 @@ else
 fi
 
 if command -v npm >/dev/null 2>&1; then
+    echo -e "${GREEN}✅ npm is installed ($(npm --version))${NC}"
