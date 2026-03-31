@@ -66,3 +66,4 @@ check_service() {
     echo -n "Checking $name... "
     if curl -s --max-time 3 "$url" >/dev/null 2>&1; then
         echo -e "${GREEN}✅ Responding${NC}"
+    else
