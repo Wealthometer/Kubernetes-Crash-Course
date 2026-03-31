@@ -45,3 +45,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
    ```
 
 3. **Access the application**
+   - Frontend: http://localhost:3000
