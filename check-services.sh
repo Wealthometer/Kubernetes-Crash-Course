@@ -14,3 +14,4 @@ echo "=================================="
 echo -e "\n${BLUE}Docker Status:${NC}"
 if command -v docker >/dev/null 2>&1; then
     echo -e "${GREEN}✅ Docker is installed${NC}"
+    if docker ps >/dev/null 2>&1; then
