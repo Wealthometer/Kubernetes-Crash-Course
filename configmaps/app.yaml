@@ -13,3 +13,4 @@ kind: Deployment
 metadata:
   name: config-reader-deployment
   namespace: default
+spec:
