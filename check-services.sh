@@ -47,3 +47,4 @@ check_port() {
     
     if lsof -i :$port >/dev/null 2>&1; then
         echo -e "${GREEN}✅ Port $port ($service) is in use${NC}"
+    else
