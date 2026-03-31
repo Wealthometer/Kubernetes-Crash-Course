@@ -67,3 +67,4 @@ docker run --name gamehub-postgres \
   -d postgres:13
 
 # Wait for PostgreSQL to start
+sleep 10
