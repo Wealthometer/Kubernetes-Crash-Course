@@ -11,3 +11,4 @@ def main():
         config_map = v1.read_namespaced_config_map(config_map_name, namespace)
         print("ConfigMap data:")
         for key, value in config_map.data.items():
+            print(f"{key}: {value}")
