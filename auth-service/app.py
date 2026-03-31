@@ -69,3 +69,4 @@ def register():
         return jsonify({"error": "Username already exists"}), 409
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    finally:
