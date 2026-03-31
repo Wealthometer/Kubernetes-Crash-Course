@@ -48,3 +48,4 @@ def register():
     password = data.get('password')
 
     if not username or len(username) < 3:
+        return jsonify({"error": "Username must be at least 3 characters long"}), 400
