@@ -58,3 +58,4 @@ check_port 8081 "Game Service"
 check_port 5432 "PostgreSQL"
 
 # Check Service Responses
+echo -e "\n${BLUE}Service Response Check:${NC}"
