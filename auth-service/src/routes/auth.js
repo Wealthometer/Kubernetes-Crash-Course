@@ -23,3 +23,4 @@ router.post('/login', async (req, res) => {
       { userId: user._id },
       process.env.JWT_SECRET,
       { expiresIn: '1h' }
+    );
