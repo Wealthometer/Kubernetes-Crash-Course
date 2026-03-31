@@ -12,3 +12,4 @@ app = Flask(__name__)
 CORS(app)
 metrics = PrometheusMetrics(app)
 
+# JWT Secret Key
