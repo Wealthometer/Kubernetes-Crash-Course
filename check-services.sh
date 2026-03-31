@@ -109,3 +109,4 @@ if ! curl -s --max-time 3 "http://localhost:3000" >/dev/null 2>&1; then
     echo -e "${YELLOW}2. Wait for services to fully start (may take 30-60 seconds)${NC}"
 fi
 
+echo -e "${YELLOW}3. Run tests: ./test-local.sh${NC}"
