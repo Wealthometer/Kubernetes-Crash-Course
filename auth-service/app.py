@@ -52,3 +52,4 @@ def register():
     if not password or len(password) < 6:
         return jsonify({"error": "Password must be at least 6 characters long"}), 400
 
+    password_bytes = password.encode('utf-8')
