@@ -10,3 +10,4 @@ GameHub is a microservices-based gaming platform built with:
 - **Auth Service**: Flask-based authentication service with JWT tokens
 - **Game Service**: Flask-based game logic service
 - **Database**: PostgreSQL for user data and game statistics
+- **Monitoring**: Prometheus metrics integration
