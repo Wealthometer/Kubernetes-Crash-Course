@@ -53,3 +53,4 @@ check_port() {
 }
 
 check_port 3000 "Frontend"
+check_port 8080 "Auth Service"
