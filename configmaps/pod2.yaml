@@ -8,3 +8,4 @@ spec:
     matchLabels:
       app: my-web-app
   template:
+    metadata:
