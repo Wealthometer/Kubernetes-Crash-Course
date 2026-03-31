@@ -46,3 +46,4 @@ Thumbs.db
 *.pid
 
 # Logs
+logs/
