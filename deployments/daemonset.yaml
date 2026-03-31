@@ -9,3 +9,4 @@ spec:
     matchLabels:
       name: nginx
   template:
+    metadata:
