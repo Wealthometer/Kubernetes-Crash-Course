@@ -31,3 +31,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
 - **Git**
 
 ### Quick Start
+
