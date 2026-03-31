@@ -57,3 +57,4 @@ def register():
 
     try:
         conn = connect_to_db()
+        with conn:
