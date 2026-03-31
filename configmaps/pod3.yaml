@@ -9,3 +9,4 @@ spec:
   template:
     metadata:
       labels:
+        app: mysql
