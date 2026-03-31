@@ -10,3 +10,4 @@ spec:
     metadata:
       labels:
         app: mysql
+    spec:
