@@ -46,3 +46,4 @@ metadata:
   name: read-configmaps
   namespace: default
 subjects:
+- kind: ServiceAccount
