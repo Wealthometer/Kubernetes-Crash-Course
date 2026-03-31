@@ -30,3 +30,4 @@ def connect_to_db():
     max_retries = 10
     retry_delay = 5  # seconds
     for attempt in range(max_retries):
+        try:
