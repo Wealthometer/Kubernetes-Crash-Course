@@ -94,3 +94,4 @@ export POSTGRES_PASSWORD=password
 python app.py
 ```
 
+#### 3. Game Service Setup
