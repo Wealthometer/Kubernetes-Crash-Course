@@ -49,3 +49,4 @@ kubectl rollout undo deployment/course --to-revision=1
 Scale deployment, you can also do `kubectl edit deployment`
 
 ```
+kubectl scale deployment/course --replicas=6
