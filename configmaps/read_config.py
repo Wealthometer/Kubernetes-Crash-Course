@@ -15,3 +15,4 @@ def main():
     except client.exceptions.ApiException as e:
         print(f"Exception when calling CoreV1Api->read_namespaced_config_map: {e}")
 
+if __name__ == '__main__':
