@@ -7,3 +7,4 @@ spec:
     matchLabels:
       app: mysql
   template:
+    metadata:
