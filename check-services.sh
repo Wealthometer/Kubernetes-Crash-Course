@@ -24,3 +24,4 @@ else
     echo -e "${RED}❌ Docker is not installed${NC}"
 fi
 
+# Check PostgreSQL Container
