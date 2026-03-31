@@ -8,3 +8,4 @@ import datetime
 import time
 from prometheus_flask_exporter import PrometheusMetrics
 
+app = Flask(__name__)
