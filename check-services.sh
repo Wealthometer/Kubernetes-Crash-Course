@@ -10,3 +10,4 @@ NC='\033[0m' # No Color
 echo -e "${BLUE}🔍 GameHub Service Status Check${NC}"
 echo "=================================="
 
+# Check Docker
