@@ -11,3 +11,4 @@ spec:
       app: demo
   template:
     metadata:
+      labels:
