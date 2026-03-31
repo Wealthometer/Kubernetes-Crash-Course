@@ -42,3 +42,4 @@ See the rollout history
 kubectl rollout history deploy/course
 kubectl rollout history deploy/course --revision=2
 ```
+```
