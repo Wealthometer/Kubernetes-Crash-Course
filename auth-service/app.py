@@ -21,3 +21,4 @@ def connect_to_db():
     db_password = os.getenv('POSTGRES_PASSWORD')
     db_host = os.getenv('POSTGRES_HOST')
     db_name = os.getenv('POSTGRES_DB')
+
