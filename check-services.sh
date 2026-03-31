@@ -62,3 +62,4 @@ echo -e "\n${BLUE}Service Response Check:${NC}"
 check_service() {
     local name=$1
     local url=$2
+    
