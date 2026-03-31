@@ -35,3 +35,4 @@ Game Service (Flask:8081) ← → PostgreSQL (5432)
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
+   cd kubernetes-course-2025
