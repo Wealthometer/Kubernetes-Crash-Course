@@ -8,3 +8,4 @@ spec:
     matchLabels:
       app: nginx
       version: "1.17"
+  template:
