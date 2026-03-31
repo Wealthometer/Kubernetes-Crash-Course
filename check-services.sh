@@ -105,3 +105,4 @@ if ! docker ps | grep -q gamehub-postgres; then
     echo -e "${YELLOW}1. Start services: ./start-local.sh${NC}"
 fi
 
+if ! curl -s --max-time 3 "http://localhost:3000" >/dev/null 2>&1; then
