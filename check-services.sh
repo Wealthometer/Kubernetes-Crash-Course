@@ -25,3 +25,4 @@ else
 fi
 
 # Check PostgreSQL Container
+echo -e "\n${BLUE}PostgreSQL Status:${NC}"
