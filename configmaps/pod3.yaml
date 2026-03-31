@@ -21,3 +21,4 @@ spec:
                 name: mysql-root-pass
                 key: password
           - name: MYSQL_USER
+            valueFrom:
