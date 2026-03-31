@@ -23,3 +23,4 @@ spec:
           - name: MYSQL_USER
             valueFrom:
               configMapKeyRef:
+                name: kubesimplify-configmap
