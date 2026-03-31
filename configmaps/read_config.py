@@ -7,3 +7,4 @@ def main():
     config_map_name = 'app-config'
     namespace = 'default'
 
+    try:
