@@ -7,3 +7,4 @@ data:
     # Development Configuration
     debug=true
     database_url=http://dev-db.example.com
+    featureX_enabled=false
