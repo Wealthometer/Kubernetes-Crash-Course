@@ -84,3 +84,4 @@ elif command -v python >/dev/null 2>&1; then
 else
     echo -e "${RED}❌ Python is not installed${NC}"
 fi
+
