@@ -54,3 +54,4 @@ kubectl rollout pause deployment/course
 ```
 
 For Recreate strategy
+```
