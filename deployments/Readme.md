@@ -71,3 +71,4 @@ kubectl apply -f deploy -canary-v2.yaml
 kubectl get pods -o=custom-columns=NAME:.metadata.name,IMAGE:.spec.containers[*].image --watch
 ```
 Check the endpoints for the service created and you will see all in the endpoints ready to be served traffic. 
+
