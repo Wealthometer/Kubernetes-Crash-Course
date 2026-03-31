@@ -88,3 +88,4 @@ def login():
         conn = connect_to_db()
         with conn:
             with conn.cursor() as cur:
+                cur.execute("SELECT * FROM users WHERE username = %s", (username,))
