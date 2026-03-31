@@ -35,3 +35,4 @@ Update image
 ```
 kubectl set image deploy course nginx=nginx:1.14.a --record
 kubectl annotate deployment/course kubernetes.io/change-cause="Update to nginx:1.14"
+
