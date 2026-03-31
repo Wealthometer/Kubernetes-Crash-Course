@@ -5,3 +5,4 @@ metadata:
 data:
   settings.properties: |
     # Development Configuration
+    debug=true
