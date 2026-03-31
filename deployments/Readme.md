@@ -23,3 +23,4 @@ curl -X DELETE 'http://localhost:8080/apis/apps/v1/namespaces/default/replicaset
 curl -X DELETE 'http://localhost:8080/apis/apps/v1/namespaces/default/replicasets/nginx-rs' \
      -d '{"kind":"DeleteOptions","apiVersion":"v1","propagationPolicy":"Orphan"}' \
      -H "Content-Type: application/json"
+
