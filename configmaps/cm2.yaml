@@ -3,3 +3,4 @@ kind: ConfigMap
 metadata:
   name: app-config-dev
 data:
+  settings.properties: |
