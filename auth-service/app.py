@@ -61,3 +61,4 @@ def register():
             with conn.cursor() as cur:
                 cur.execute(
                     "INSERT INTO users (username, password_hash) VALUES (%s, %s)",
+                    (username, hashed)
