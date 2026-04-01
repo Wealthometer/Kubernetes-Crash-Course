@@ -106,3 +106,4 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Set environment variables (same as auth service)
+export POSTGRES_HOST=localhost
