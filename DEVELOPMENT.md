@@ -109,3 +109,4 @@ pip install -r requirements.txt
 export POSTGRES_HOST=localhost
 export POSTGRES_DB=gamehub
 export POSTGRES_USER=user
+export POSTGRES_PASSWORD=password
