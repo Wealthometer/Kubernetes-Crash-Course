@@ -108,3 +108,4 @@ pip install -r requirements.txt
 # Set environment variables (same as auth service)
 export POSTGRES_HOST=localhost
 export POSTGRES_DB=gamehub
+export POSTGRES_USER=user
