@@ -166,3 +166,4 @@ curl -X POST http://localhost:8080/login \
 ```bash
 # Replace YOUR_JWT_TOKEN with actual token from login response
 curl -X GET http://localhost:8081/games \
+  -H "Authorization: Bearer YOUR_JWT_TOKEN"
