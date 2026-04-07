@@ -140,3 +140,4 @@ curl http://localhost:8080/health || echo "Auth service not responding"
 curl http://localhost:8081/health || echo "Game service not responding"
 
 # Check Frontend
+curl http://localhost:3000 || echo "Frontend not responding"
