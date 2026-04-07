@@ -146,3 +146,4 @@ curl http://localhost:3000 || echo "Frontend not responding"
 docker exec gamehub-postgres pg_isready -U user -d gamehub
 ```
 
+### 2. API Testing
