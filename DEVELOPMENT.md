@@ -118,3 +118,4 @@ python app.py
 #### 4. Frontend Setup
 ```bash
 cd frontend
+
