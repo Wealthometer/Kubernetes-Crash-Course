@@ -168,3 +168,4 @@ curl -X POST http://localhost:8080/login \
 curl -X GET http://localhost:8081/games \
   -H "Authorization: Bearer YOUR_JWT_TOKEN"
 ```
+
