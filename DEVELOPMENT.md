@@ -165,3 +165,4 @@ curl -X POST http://localhost:8080/login \
 #### Test Game Service (requires JWT token from login):
 ```bash
 # Replace YOUR_JWT_TOKEN with actual token from login response
+curl -X GET http://localhost:8081/games \
