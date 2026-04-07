@@ -136,3 +136,4 @@ Test if all services are running:
 # Check Auth Service
 curl http://localhost:8080/health || echo "Auth service not responding"
 
+# Check Game Service  
