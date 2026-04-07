@@ -169,3 +169,4 @@ curl -X GET http://localhost:8081/games \
   -H "Authorization: Bearer YOUR_JWT_TOKEN"
 ```
 
+### 3. Database Testing
