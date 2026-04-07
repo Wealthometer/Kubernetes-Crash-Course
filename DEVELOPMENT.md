@@ -120,3 +120,4 @@ python app.py
 cd frontend
 
 # Install dependencies
+npm install
