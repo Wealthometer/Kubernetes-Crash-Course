@@ -134,3 +134,4 @@ Test if all services are running:
 
 ```bash
 # Check Auth Service
+curl http://localhost:8080/health || echo "Auth service not responding"
