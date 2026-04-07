@@ -194,3 +194,4 @@ SELECT * FROM users;
 5. Check browser console for any errors
 
 ## 🐛 Troubleshooting
+
