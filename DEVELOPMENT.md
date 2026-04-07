@@ -190,3 +190,4 @@ SELECT * FROM users;
 1. Open http://localhost:3000
 2. Register a new account
 3. Login with your credentials
+4. Test game functionality
