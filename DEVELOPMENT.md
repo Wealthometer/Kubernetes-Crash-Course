@@ -191,3 +191,4 @@ SELECT * FROM users;
 2. Register a new account
 3. Login with your credentials
 4. Test game functionality
+5. Check browser console for any errors
