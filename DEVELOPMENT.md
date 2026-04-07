@@ -113,3 +113,4 @@ export POSTGRES_PASSWORD=password
 
 # Start the service
 python app.py
+```
