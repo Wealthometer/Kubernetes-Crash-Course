@@ -126,3 +126,4 @@ npm install
 npm start
 ```
 
+## 🧪 Testing the Application
