@@ -115,3 +115,4 @@ export POSTGRES_PASSWORD=password
 python app.py
 ```
 
+#### 4. Frontend Setup
