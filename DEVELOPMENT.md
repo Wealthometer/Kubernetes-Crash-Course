@@ -198,3 +198,4 @@ SELECT * FROM users;
 ### Common Issues
 
 #### PostgreSQL Connection Issues
+```bash
