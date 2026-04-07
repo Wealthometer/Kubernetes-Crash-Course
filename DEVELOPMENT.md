@@ -150,3 +150,4 @@ docker exec gamehub-postgres pg_isready -U user -d gamehub
 
 #### Register a new user:
 ```bash
+curl -X POST http://localhost:8080/register \
