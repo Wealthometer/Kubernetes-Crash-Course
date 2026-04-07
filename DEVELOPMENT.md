@@ -180,3 +180,4 @@ docker exec -it gamehub-postgres psql -U user -d gamehub
 
 # View users
 SELECT * FROM users;
+
