@@ -122,3 +122,4 @@ cd frontend
 # Install dependencies
 npm install
 
+# Start development server
