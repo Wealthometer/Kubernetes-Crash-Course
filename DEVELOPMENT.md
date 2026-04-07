@@ -163,3 +163,4 @@ curl -X POST http://localhost:8080/login \
 ```
 
 #### Test Game Service (requires JWT token from login):
+```bash
