@@ -144,3 +144,4 @@ curl http://localhost:3000 || echo "Frontend not responding"
 
 # Check Database
 docker exec gamehub-postgres pg_isready -U user -d gamehub
+```
