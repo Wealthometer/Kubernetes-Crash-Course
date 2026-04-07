@@ -130,3 +130,4 @@ npm start
 
 ### 1. Health Checks
 
+Test if all services are running:
