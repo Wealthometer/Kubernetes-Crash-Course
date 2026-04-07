@@ -199,3 +199,4 @@ SELECT * FROM users;
 
 #### PostgreSQL Connection Issues
 ```bash
+# Check if PostgreSQL container is running
