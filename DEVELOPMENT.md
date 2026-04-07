@@ -182,3 +182,4 @@ docker exec -it gamehub-postgres psql -U user -d gamehub
 SELECT * FROM users;
 
 # Exit
+\q
