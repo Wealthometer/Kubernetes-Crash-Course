@@ -162,3 +162,4 @@ curl -X POST http://localhost:8080/login \
   -d '{"username": "testuser", "password": "testpass123"}'
 ```
 
+#### Test Game Service (requires JWT token from login):
