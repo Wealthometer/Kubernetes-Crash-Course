@@ -174,3 +174,4 @@ curl -X GET http://localhost:8081/games \
 ```bash
 # Connect to database
 docker exec -it gamehub-postgres psql -U user -d gamehub
+
