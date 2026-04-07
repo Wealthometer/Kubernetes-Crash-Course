@@ -149,3 +149,4 @@ docker exec gamehub-postgres pg_isready -U user -d gamehub
 ### 2. API Testing
 
 #### Register a new user:
+```bash
