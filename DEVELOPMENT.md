@@ -119,3 +119,4 @@ python app.py
 ```bash
 cd frontend
 
+# Install dependencies
