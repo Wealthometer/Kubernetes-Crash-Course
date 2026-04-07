@@ -155,3 +155,4 @@ curl -X POST http://localhost:8080/register \
   -d '{"username": "testuser", "password": "testpass123"}'
 ```
 
+#### Login:
