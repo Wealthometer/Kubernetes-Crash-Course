@@ -132,3 +132,4 @@ npm start
 
 Test if all services are running:
 
+```bash
