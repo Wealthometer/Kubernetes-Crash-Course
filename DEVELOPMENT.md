@@ -176,3 +176,4 @@ curl -X GET http://localhost:8081/games \
 docker exec -it gamehub-postgres psql -U user -d gamehub
 
 # Check tables
+\dt
