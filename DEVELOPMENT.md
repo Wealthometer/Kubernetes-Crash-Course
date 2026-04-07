@@ -193,3 +193,4 @@ SELECT * FROM users;
 4. Test game functionality
 5. Check browser console for any errors
 
+## 🐛 Troubleshooting
