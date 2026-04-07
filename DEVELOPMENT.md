@@ -152,3 +152,4 @@ docker exec gamehub-postgres pg_isready -U user -d gamehub
 ```bash
 curl -X POST http://localhost:8080/register \
   -H "Content-Type: application/json" \
+  -d '{"username": "testuser", "password": "testpass123"}'
