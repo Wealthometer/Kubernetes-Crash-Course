@@ -187,3 +187,4 @@ SELECT * FROM users;
 
 ### 4. Frontend Testing
 
+1. Open http://localhost:3000
