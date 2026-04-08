@@ -206,3 +206,4 @@ docker ps | grep gamehub-postgres
 docker logs gamehub-postgres
 
 # Restart PostgreSQL
+docker restart gamehub-postgres
