@@ -219,3 +219,4 @@ tail -f auth-service/app.log  # if logging is configured
 
 
 
+
