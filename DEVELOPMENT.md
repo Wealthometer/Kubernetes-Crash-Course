@@ -243,5 +243,6 @@ lsof -i :8081  # Game Service
 lsof -i :5432  # PostgreSQL
 
 # Kill processes if needed
+```
 
 
