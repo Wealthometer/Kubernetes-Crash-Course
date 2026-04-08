@@ -256,3 +256,4 @@ kill -9 <PID>
    - Test the changes
 
 2. **Frontend Changes** (React):
+   - Edit the code
