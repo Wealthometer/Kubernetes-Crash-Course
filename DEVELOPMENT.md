@@ -209,3 +209,4 @@ docker logs gamehub-postgres
 docker restart gamehub-postgres
 ```
 
+#### Python Service Issues
