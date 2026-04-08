@@ -258,3 +258,4 @@ kill -9 <PID>
 2. **Frontend Changes** (React):
    - Edit the code
    - Changes are automatically reloaded in development mode
+   - Check browser for updates
