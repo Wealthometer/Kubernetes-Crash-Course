@@ -253,3 +253,4 @@ kill -9 <PID>
 1. **Backend Changes** (Python services):
    - Edit the code
    - Restart the service (Ctrl+C and run `python app.py` again)
+   - Test the changes
