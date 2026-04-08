@@ -238,6 +238,7 @@ lsof -i :3000
 ```bash
 # Check what's using the ports
 lsof -i :3000  # Frontend
+lsof -i :8080  # Auth Service
 
 
 
