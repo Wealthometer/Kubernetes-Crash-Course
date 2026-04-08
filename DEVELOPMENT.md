@@ -208,3 +208,4 @@ docker logs gamehub-postgres
 # Restart PostgreSQL
 docker restart gamehub-postgres
 ```
+
