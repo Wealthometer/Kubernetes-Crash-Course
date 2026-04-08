@@ -210,3 +210,4 @@ docker restart gamehub-postgres
 ```
 
 #### Python Service Issues
+```bash
