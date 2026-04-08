@@ -203,3 +203,4 @@ SELECT * FROM users;
 docker ps | grep gamehub-postgres
 
 # Check PostgreSQL logs
+docker logs gamehub-postgres
