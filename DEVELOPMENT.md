@@ -239,6 +239,7 @@ lsof -i :3000
 # Check what's using the ports
 lsof -i :3000  # Frontend
 lsof -i :8080  # Auth Service
+lsof -i :8081  # Game Service
 
 
 
