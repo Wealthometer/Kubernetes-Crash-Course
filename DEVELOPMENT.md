@@ -213,3 +213,4 @@ docker restart gamehub-postgres
 ```bash
 # Check if virtual environment is activated
 which python  # Should point to venv/bin/python
+# Check environment variables
