@@ -232,6 +232,7 @@ npm install
 
 # Check for port conflicts
 lsof -i :3000
+```
 
 
 
