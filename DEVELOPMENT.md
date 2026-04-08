@@ -218,3 +218,4 @@ which python  # Should point to venv/bin/python
 tail -f auth-service/app.log  # if logging is configured
 
 
+
