@@ -236,6 +236,7 @@ lsof -i :3000
 
 #### Port Conflicts
 ```bash
+# Check what's using the ports
 
 
 
