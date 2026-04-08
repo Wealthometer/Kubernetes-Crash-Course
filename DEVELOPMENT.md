@@ -255,3 +255,4 @@ kill -9 <PID>
    - Restart the service (Ctrl+C and run `python app.py` again)
    - Test the changes
 
+2. **Frontend Changes** (React):
