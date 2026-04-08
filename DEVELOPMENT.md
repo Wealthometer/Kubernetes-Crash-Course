@@ -212,3 +212,4 @@ docker restart gamehub-postgres
 #### Python Service Issues
 ```bash
 # Check if virtual environment is activated
+which python  # Should point to venv/bin/python
