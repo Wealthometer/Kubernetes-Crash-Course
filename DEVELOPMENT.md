@@ -227,6 +227,7 @@ tail -f auth-service/app.log  # if logging is configured
 npm cache clean --force
 
 # Reinstall dependencies
+rm -rf node_modules package-lock.json
 
 
 
