@@ -226,6 +226,7 @@ tail -f auth-service/app.log  # if logging is configured
 # Clear npm cache
 npm cache clean --force
 
+# Reinstall dependencies
 
 
 
