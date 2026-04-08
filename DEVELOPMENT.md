@@ -202,3 +202,4 @@ SELECT * FROM users;
 # Check if PostgreSQL container is running
 docker ps | grep gamehub-postgres
 
+# Check PostgreSQL logs
