@@ -214,6 +214,7 @@ docker restart gamehub-postgres
 # Check if virtual environment is activated
 which python  # Should point to venv/bin/python
 # Check environment variables
+
 tail -f auth-service/app.log  # if logging is configured
 
 
