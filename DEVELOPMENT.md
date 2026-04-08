@@ -237,6 +237,7 @@ lsof -i :3000
 #### Port Conflicts
 ```bash
 # Check what's using the ports
+lsof -i :3000  # Frontend
 
 
 
