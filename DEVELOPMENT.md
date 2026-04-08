@@ -201,3 +201,4 @@ SELECT * FROM users;
 ```bash
 # Check if PostgreSQL container is running
 docker ps | grep gamehub-postgres
+
