@@ -246,4 +246,5 @@ lsof -i :5432  # PostgreSQL
 kill -9 <PID>
 ```
 
+## 🔧 Development Workflow
 
