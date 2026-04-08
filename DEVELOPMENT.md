@@ -224,6 +224,7 @@ tail -f auth-service/app.log  # if logging is configured
 #### Frontend Issues
 ```bash
 # Clear npm cache
+npm cache clean --force
 
 
 
