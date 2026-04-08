@@ -228,6 +228,7 @@ npm cache clean --force
 
 # Reinstall dependencies
 rm -rf node_modules package-lock.json
+npm install
 
 
 
