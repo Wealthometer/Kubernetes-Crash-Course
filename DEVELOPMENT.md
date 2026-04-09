@@ -310,3 +310,4 @@ For production deployment, see the main [README.md](README.md) which covers:
 - [manifests/](manifests/) - Kubernetes deployment manifests
 - [configmaps/](configmaps/) - ConfigMap examples
 - [volumes/](volumes/) - Volume examples
+- [rbac/](rbac/) - RBAC examples
