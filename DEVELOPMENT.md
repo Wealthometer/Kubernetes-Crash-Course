@@ -269,3 +269,4 @@ kill -9 <PID>
      # Run the database setup again
      ```
 
+### Environment Variables
