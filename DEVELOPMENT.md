@@ -318,3 +318,4 @@ For production deployment, see the main [README.md](README.md) which covers:
 2. Create a feature branch
 3. Make your changes
 4. Test locally using this guide
+5. Submit a pull request
