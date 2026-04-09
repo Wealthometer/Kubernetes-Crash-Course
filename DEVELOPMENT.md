@@ -264,3 +264,4 @@ kill -9 <PID>
    - Edit `init.sql`
    - Recreate the database:
      ```bash
+     docker stop gamehub-postgres
