@@ -260,3 +260,4 @@ kill -9 <PID>
    - Changes are automatically reloaded in development mode
    - Check browser for updates
 
+3. **Database Changes**:
