@@ -277,3 +277,4 @@ The application uses these environment variables:
 # Database Configuration
 POSTGRES_HOST=localhost
 POSTGRES_DB=gamehub
+POSTGRES_USER=user
