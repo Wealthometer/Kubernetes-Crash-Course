@@ -320,3 +320,4 @@ For production deployment, see the main [README.md](README.md) which covers:
 4. Test locally using this guide
 5. Submit a pull request
 
+For questions or issues, refer to the main course documentation or create an issue in the repository.
