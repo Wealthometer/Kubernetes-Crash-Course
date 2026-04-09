@@ -289,3 +289,4 @@ FRONTEND_PORT=3000
 You can modify these in the `.env` file or export them directly.
 
 ## 📊 Monitoring and Metrics
+
