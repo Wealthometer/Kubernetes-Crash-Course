@@ -280,3 +280,4 @@ POSTGRES_DB=gamehub
 POSTGRES_USER=user
 POSTGRES_PASSWORD=password
 
+# Service Ports (default values)
