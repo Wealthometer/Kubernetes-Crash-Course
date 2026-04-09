@@ -292,3 +292,4 @@ You can modify these in the `.env` file or export them directly.
 
 The services include Prometheus metrics endpoints:
 
+- Auth Service metrics: http://localhost:8080/metrics
