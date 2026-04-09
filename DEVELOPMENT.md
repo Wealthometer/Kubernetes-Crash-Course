@@ -262,3 +262,4 @@ kill -9 <PID>
 
 3. **Database Changes**:
    - Edit `init.sql`
+   - Recreate the database:
