@@ -272,3 +272,4 @@ kill -9 <PID>
 ### Environment Variables
 
 The application uses these environment variables:
+
