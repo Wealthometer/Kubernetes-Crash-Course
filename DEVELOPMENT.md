@@ -298,3 +298,4 @@ The services include Prometheus metrics endpoints:
 ## 🔄 CI/CD and Production
 
 For production deployment, see the main [README.md](README.md) which covers:
+- Docker image building
