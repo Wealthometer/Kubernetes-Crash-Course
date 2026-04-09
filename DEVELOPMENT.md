@@ -268,3 +268,4 @@ kill -9 <PID>
      docker rm gamehub-postgres
      # Run the database setup again
      ```
+
