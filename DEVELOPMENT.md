@@ -294,3 +294,4 @@ The services include Prometheus metrics endpoints:
 
 - Auth Service metrics: http://localhost:8080/metrics
 - Game Service metrics: http://localhost:8081/metrics
+
