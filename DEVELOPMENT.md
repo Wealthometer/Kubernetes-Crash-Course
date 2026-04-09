@@ -301,4 +301,5 @@ For production deployment, see the main [README.md](README.md) which covers:
 - Docker image building
 - Kubernetes deployment
 - HTTPS setup with cert-manager
+- Monitoring with kube-prometheus-stack
 
