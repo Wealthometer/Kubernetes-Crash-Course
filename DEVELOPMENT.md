@@ -265,3 +265,4 @@ kill -9 <PID>
    - Recreate the database:
      ```bash
      docker stop gamehub-postgres
+     docker rm gamehub-postgres
