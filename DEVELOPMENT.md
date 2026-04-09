@@ -304,3 +304,4 @@ For production deployment, see the main [README.md](README.md) which covers:
 - Monitoring with kube-prometheus-stack
 
 ## 📝 Additional Resources
+
