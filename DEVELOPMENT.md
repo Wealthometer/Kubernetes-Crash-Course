@@ -276,3 +276,4 @@ The application uses these environment variables:
 ```bash
 # Database Configuration
 POSTGRES_HOST=localhost
+POSTGRES_DB=gamehub
