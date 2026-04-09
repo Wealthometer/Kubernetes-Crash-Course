@@ -309,3 +309,4 @@ For production deployment, see the main [README.md](README.md) which covers:
 - [Module1/](Module1/) - Kubernetes basics and core concepts
 - [manifests/](manifests/) - Kubernetes deployment manifests
 - [configmaps/](configmaps/) - ConfigMap examples
+- [volumes/](volumes/) - Volume examples
