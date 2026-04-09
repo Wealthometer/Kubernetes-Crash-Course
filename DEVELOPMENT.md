@@ -281,3 +281,4 @@ POSTGRES_USER=user
 POSTGRES_PASSWORD=password
 
 # Service Ports (default values)
+AUTH_SERVICE_PORT=8080
