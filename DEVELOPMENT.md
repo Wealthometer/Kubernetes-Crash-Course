@@ -273,3 +273,4 @@ kill -9 <PID>
 
 The application uses these environment variables:
 
+```bash
