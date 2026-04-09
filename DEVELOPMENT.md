@@ -303,3 +303,4 @@ For production deployment, see the main [README.md](README.md) which covers:
 - HTTPS setup with cert-manager
 - Monitoring with kube-prometheus-stack
 
+## 📝 Additional Resources
