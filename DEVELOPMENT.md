@@ -282,3 +282,4 @@ POSTGRES_PASSWORD=password
 
 # Service Ports (default values)
 AUTH_SERVICE_PORT=8080
+GAME_SERVICE_PORT=8081
