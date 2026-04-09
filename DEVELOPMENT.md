@@ -261,3 +261,4 @@ kill -9 <PID>
    - Check browser for updates
 
 3. **Database Changes**:
+   - Edit `init.sql`
