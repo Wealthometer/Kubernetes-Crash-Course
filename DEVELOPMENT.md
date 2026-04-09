@@ -314,3 +314,4 @@ For production deployment, see the main [README.md](README.md) which covers:
 
 ## 🤝 Contributing
 
+1. Fork the repository
