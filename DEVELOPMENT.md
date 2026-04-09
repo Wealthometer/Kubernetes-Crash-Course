@@ -306,3 +306,4 @@ For production deployment, see the main [README.md](README.md) which covers:
 ## 📝 Additional Resources
 
 - [Kubernetes Course README](README.md) - Main course documentation
+- [Module1/](Module1/) - Kubernetes basics and core concepts
