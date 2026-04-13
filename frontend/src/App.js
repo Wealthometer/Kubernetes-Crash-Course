@@ -10,3 +10,4 @@ import MemoryGame from './components/MemoryGame';
 import PrivateRoute from './components/PrivateRoute'; // NEW
 
 const App = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
