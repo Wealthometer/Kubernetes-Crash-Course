@@ -9,3 +9,4 @@ import RockPaperScissors from './components/RockPaperScissors';
 import MemoryGame from './components/MemoryGame';
 import PrivateRoute from './components/PrivateRoute'; // NEW
 
+const App = () => {
