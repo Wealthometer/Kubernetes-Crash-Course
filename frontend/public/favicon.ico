@@ -6,3 +6,4 @@
     <h1 data-server-rendered="true" id="app">404 - not found</h1>
     <script>window.__INITIAL_STATE__={"data":null,"context":{"__notFound":true}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script><script src="/assets/js/app.119b0d09.js" defer></script><script src="/assets/js/page--node-modules--gridsome--app--pages--404-vue.b77c375a.js" defer></script>
   </body>
+</html>
