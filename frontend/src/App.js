@@ -13,3 +13,4 @@ const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const history = useHistory();
 
+  useEffect(() => {
