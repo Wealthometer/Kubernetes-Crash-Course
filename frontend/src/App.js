@@ -18,3 +18,4 @@ const App = () => {
     setIsLoggedIn(!!token);
   }, []);
 
+  const handleLogout = () => {
