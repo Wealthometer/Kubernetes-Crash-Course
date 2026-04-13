@@ -17,3 +17,4 @@ const App = () => {
     const token = localStorage.getItem('token');
     setIsLoggedIn(!!token);
   }, []);
+
