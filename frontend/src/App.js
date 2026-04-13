@@ -15,3 +15,4 @@ const App = () => {
 
   useEffect(() => {
     const token = localStorage.getItem('token');
+    setIsLoggedIn(!!token);
