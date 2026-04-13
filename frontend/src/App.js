@@ -14,3 +14,4 @@ const App = () => {
   const history = useHistory();
 
   useEffect(() => {
+    const token = localStorage.getItem('token');
