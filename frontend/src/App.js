@@ -19,3 +19,4 @@ const App = () => {
   }, []);
 
   const handleLogout = () => {
+    localStorage.removeItem('token');
