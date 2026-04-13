@@ -6,3 +6,4 @@ import Signup from './components/Signup';
 import Snake from './components/SnakeGame';
 import TicTacToe from './components/TicTacToe';
 import RockPaperScissors from './components/RockPaperScissors';
+import MemoryGame from './components/MemoryGame';
