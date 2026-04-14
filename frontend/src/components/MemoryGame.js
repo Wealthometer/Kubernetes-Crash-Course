@@ -46,3 +46,4 @@ const MemoryGame = () => {
 
   // Check if two flipped cards match
   const checkForMatch = (flippedCardIds) => {
+    const [firstId, secondId] = flippedCardIds;
