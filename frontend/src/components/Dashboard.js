@@ -67,4 +67,5 @@ const Dashboard = () => {
             >
               Logout
             </button>
+          </>
         )}
