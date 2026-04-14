@@ -12,3 +12,4 @@ const Dashboard = () => {
     const token = localStorage.getItem('token');
     if (token) {
       try {
+        const decoded = JSON.parse(atob(token.split('.')[1]));
