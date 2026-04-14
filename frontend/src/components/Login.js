@@ -44,3 +44,4 @@ const Login = () => {
           className="w-full bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-700 transition duration-300 font-medium"
           Login
       </form>
+        Don't have an account? <a href="/signup" className="text-blue-500 hover:underline">Sign Up</a>
