@@ -85,3 +85,4 @@ const Dashboard = () => {
               </tr>
             </thead>
             <tbody>
+              {scores.map((score, index) => (
