@@ -40,6 +40,7 @@ const MemoryGame = () => {
     setMoves(0);
     setGameWon(false);
     setGameStarted(true);
+  };
 
   // Handle card click
   const handleCardClick = (cardId) => {
