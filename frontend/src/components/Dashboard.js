@@ -86,3 +86,4 @@ const Dashboard = () => {
             </thead>
             <tbody>
               {scores.map((score, index) => (
+                <tr key={index} className="border-t">
