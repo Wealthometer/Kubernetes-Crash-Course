@@ -30,3 +30,4 @@ const MemoryGame = () => {
 
   const handleCardClick = (cardId) => {
     
+    if (!card || card.isFlipped || card.isMatched || flippedCards.length >= 2) return;
