@@ -24,3 +24,4 @@ const Dashboard = () => {
       const response = await axios.get(`${gameServiceUrl}/users/scores`, {
         params: { t: new Date().getTime() }, // Cache-busting parameter
       });
+      console.log('Fetched scores:', response.data);
