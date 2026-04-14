@@ -37,3 +37,4 @@ const MemoryGame = () => {
         c.id === cardId ? { ...c, isFlipped: true } : c
     );
 
+    // Check for match when two cards are flipped
