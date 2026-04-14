@@ -35,4 +35,5 @@ const MemoryGame = () => {
 
     setCards(prevCards => 
         c.id === cardId ? { ...c, isFlipped: true } : c
+    );
 
