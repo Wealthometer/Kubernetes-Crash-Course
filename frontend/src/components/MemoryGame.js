@@ -80,3 +80,4 @@ const MemoryGame = () => {
         )
       );
       setMatchedPairs(prev => [...prev, firstCard.symbol]);
+      
