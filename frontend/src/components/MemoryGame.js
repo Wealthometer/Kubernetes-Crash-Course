@@ -24,6 +24,7 @@ const MemoryGame = () => {
     CARD_SYMBOLS.forEach((symbol, index) => {
       gameCards.push(
         { id: index * 2, symbol, isFlipped: false, isMatched: false },
+        { id: index * 2 + 1, symbol, isFlipped: false, isMatched: false }
       );
     });
 
