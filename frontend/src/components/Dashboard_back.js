@@ -63,3 +63,4 @@ const Dashboard = () => {
           Logout
         </button>
         <div className="overflow-x-auto">
+          <table className="min-w-full bg-white rounded-lg shadow-md">
