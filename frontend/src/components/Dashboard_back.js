@@ -78,3 +78,4 @@ const Dashboard = () => {
               {scores.map((score, index) => (
                 <tr key={index} className="border-t">
                   <td className="py-2 px-4 text-center">{score.username}</td>
+                  <td className="py-2 px-4 text-center">{score.snake_high_score}</td>
