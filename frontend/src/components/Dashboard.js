@@ -27,3 +27,4 @@ const Dashboard = () => {
       console.log('Fetching scores from:', fullUrl); // Debug log
       const response = await axios.get(fullUrl, {
         params: { t: new Date().getTime() }, // Cache-busting
+      });
