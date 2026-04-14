@@ -37,3 +37,4 @@ const Dashboard = () => {
 
   // Refresh scores when the dashboard is focused (e.g., after navigating back)
   useEffect(() => {
+    const handleFocus = () => {
