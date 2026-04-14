@@ -73,3 +73,4 @@ const Dashboard = () => {
         <div className="overflow-x-auto">
           <table className="min-w-full bg-white rounded-lg shadow-md">
             <thead>
+              <tr className="bg-blue-500 text-white">
