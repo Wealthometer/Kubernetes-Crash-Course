@@ -74,3 +74,4 @@ const MemoryGame = () => {
 
     if (firstCard.symbol === secondCard.symbol) {
       // Cards match
+      setCards(prevCards =>
