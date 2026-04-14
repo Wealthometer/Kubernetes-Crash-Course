@@ -11,3 +11,4 @@ const Login = () => {
 
     e.preventDefault();
     try {
+      console.log('Logging in at:', fullUrl); // Debug log
