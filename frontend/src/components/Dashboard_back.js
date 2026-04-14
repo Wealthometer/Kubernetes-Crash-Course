@@ -25,3 +25,4 @@ const Dashboard = () => {
         params: { t: new Date().getTime() }, // Cache-busting parameter
       });
       console.log('Fetched scores:', response.data);
+      setScores(response.data);
