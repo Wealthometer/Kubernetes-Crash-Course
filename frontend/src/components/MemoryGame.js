@@ -125,3 +125,4 @@ const MemoryGame = () => {
   const resetGame = () => {
     initializeGame();
   };
+
