@@ -26,3 +26,4 @@ const App = () => {
 
   return (
     <Router>
+      <div className="min-h-screen bg-gray-100">
