@@ -33,3 +33,4 @@ const Dashboard = () => {
 
   useEffect(() => {
     fetchScores();
+  }, []); // Initial fetch on mount
