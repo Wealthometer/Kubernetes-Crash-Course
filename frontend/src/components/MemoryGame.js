@@ -102,3 +102,4 @@ const MemoryGame = () => {
   const updateGameStats = async (won) => {
     try {
       let token = localStorage.getItem('token');
+      if (token && token.startsWith('Bearer ')) {
