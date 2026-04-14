@@ -74,3 +74,4 @@ const Dashboard = () => {
           <table className="min-w-full bg-white rounded-lg shadow-md">
             <thead>
               <tr className="bg-blue-500 text-white">
+                <th className="py-2 px-4">USERNAME</th>
