@@ -109,3 +109,4 @@ const MemoryGame = () => {
       const stats = {
         game_type: 'memory-game',
         wins: won ? 1 : 0,
+        losses: won ? 0 : 1,
