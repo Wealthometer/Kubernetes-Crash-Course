@@ -74,3 +74,4 @@ const Dashboard = () => {
                 <th className="py-2 px-4">RPS LOSSES</th>
               </tr>
             </thead>
+            <tbody>
