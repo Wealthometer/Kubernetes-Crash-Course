@@ -101,3 +101,4 @@ const MemoryGame = () => {
   // Update game statistics
   const updateGameStats = async (won) => {
     try {
+      let token = localStorage.getItem('token');
