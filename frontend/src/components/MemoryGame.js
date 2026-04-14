@@ -7,3 +7,4 @@ const MemoryGame = () => {
   const [cards, setCards] = useState([]);
   const [flippedCards, setFlippedCards] = useState([]);
   const [matchedPairs, setMatchedPairs] = useState([]);
+  const [moves, setMoves] = useState(0);
