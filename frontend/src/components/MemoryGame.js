@@ -40,6 +40,7 @@ const MemoryGame = () => {
 
   // Handle card click
   const handleCardClick = (cardId) => {
+    if (!gameStarted || gameWon) return;
     
     const card = cards.find(c => c.id === cardId);
     if (!card || card.isFlipped || card.isMatched || flippedCards.length >= 2) return;
