@@ -16,3 +16,4 @@ const Dashboard = () => {
         setUsername(decoded.username);
       } catch (e) {
         console.error('Invalid token:', e);
+        localStorage.removeItem('token');
