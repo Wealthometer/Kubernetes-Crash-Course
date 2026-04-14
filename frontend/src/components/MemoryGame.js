@@ -40,3 +40,4 @@ const MemoryGame = () => {
     // Check for match when two cards are flipped
     if (newFlippedCards.length === 2) {
       setMoves(prev => prev + 1);
+      setTimeout(() => checkForMatch(newFlippedCards), FLIP_DELAY);
