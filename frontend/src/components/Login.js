@@ -10,3 +10,4 @@ const Login = () => {
   const history = useHistory();
 
     e.preventDefault();
+    try {
