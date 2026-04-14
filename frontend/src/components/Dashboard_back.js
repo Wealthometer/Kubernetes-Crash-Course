@@ -26,3 +26,4 @@ const Dashboard = () => {
       });
       console.log('Fetched scores:', response.data);
       setScores(response.data);
+    } catch (err) {
