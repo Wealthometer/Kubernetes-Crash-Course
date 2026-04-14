@@ -49,3 +49,4 @@ const Dashboard = () => {
     localStorage.removeItem('token');
     history.push('/login');
   };
+
