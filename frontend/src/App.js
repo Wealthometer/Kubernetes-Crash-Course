@@ -36,3 +36,4 @@ const App = () => {
             {!isLoggedIn ? (
               <>
                 <a href="/signup" className="text-white hover:underline mx-2">Sign Up</a>
+                <a href="/login" className="text-white hover:underline mx-2">Login</a>
