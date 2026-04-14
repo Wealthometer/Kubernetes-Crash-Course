@@ -96,3 +96,4 @@ const Dashboard = () => {
       </div>
     </div>
   );
+};
