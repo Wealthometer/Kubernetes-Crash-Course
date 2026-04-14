@@ -36,3 +36,4 @@ const Login = () => {
           />
         <div className="mb-6">
           <input
+            id="password"
