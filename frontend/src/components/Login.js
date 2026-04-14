@@ -28,6 +28,7 @@ const Login = () => {
       <img src={logo} alt="Kubesimplify" className="max-w-xs h-auto mx-auto rounded-lg shadow-md mb-6" />
       <h2 className="text-3xl font-bold text-center text-blue-500 mb-6">Login</h2>
       {error && <p className="text-red-500 text-center mb-4 font-medium">{error}</p>}
+      <form onSubmit={handleLogin}>
         <div className="mb-5">
           <input
             id="username"
