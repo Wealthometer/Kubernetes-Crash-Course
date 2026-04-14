@@ -18,3 +18,4 @@ const Dashboard = () => {
     history.push('/login');
   }
 
+  const fetchScores = async () => {
