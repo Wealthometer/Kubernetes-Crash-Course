@@ -19,3 +19,4 @@ const Login = () => {
       localStorage.setItem('token', res.data.token);
       history.push('/dashboard');
     } catch (err) {
+      setError('Login failed. Please check your credentials.');
