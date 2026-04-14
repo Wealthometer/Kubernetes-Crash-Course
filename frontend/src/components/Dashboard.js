@@ -38,3 +38,4 @@ const Dashboard = () => {
     fetchScores();
   }, []);
 
+  useEffect(() => {
