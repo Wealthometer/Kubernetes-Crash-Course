@@ -58,3 +58,4 @@ const App = () => {
           {/* 👇 Games are now protected */}
           <PrivateRoute path="/snake" component={Snake} />
           <PrivateRoute path="/tic-tac-toe" component={TicTacToe} />
+          <PrivateRoute path="/rock-paper-scissors" component={RockPaperScissors} />
