@@ -47,6 +47,7 @@ const MemoryGame = () => {
     const newFlippedCards = [...flippedCards, cardId];
     setFlippedCards(newFlippedCards);
 
+    // Update card flip state
     setCards(prevCards => 
       prevCards.map(c => 
         c.id === cardId ? { ...c, isFlipped: true } : c
