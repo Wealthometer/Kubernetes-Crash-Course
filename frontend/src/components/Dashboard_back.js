@@ -45,3 +45,4 @@ const Dashboard = () => {
     return () => window.removeEventListener('focus', handleFocus);
   }, []);
 
+  const handleLogout = () => {
