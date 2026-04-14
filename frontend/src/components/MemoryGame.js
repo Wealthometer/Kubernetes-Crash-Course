@@ -126,3 +126,4 @@ const MemoryGame = () => {
     initializeGame();
   };
 
+  return (
