@@ -57,3 +57,4 @@ const Dashboard = () => {
         <h2 className="text-3xl font-bold text-center text-blue-500 mb-6">Dashboard</h2>
         <p className="text-center text-gray-700 mb-4">Logged in as: {username}</p>
         <button
+          onClick={handleLogout}
