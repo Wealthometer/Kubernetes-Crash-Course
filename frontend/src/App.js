@@ -61,3 +61,4 @@ const App = () => {
           <PrivateRoute path="/rock-paper-scissors" component={RockPaperScissors} />
           <PrivateRoute path="/memory-game" component={MemoryGame} />
         </Switch>
+      </div>
