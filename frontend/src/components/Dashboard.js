@@ -18,3 +18,4 @@ const Dashboard = () => {
         console.error('Invalid token:', e);
         localStorage.removeItem('token');
       }
+    }
