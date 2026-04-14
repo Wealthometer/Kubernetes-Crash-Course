@@ -44,6 +44,7 @@ const MemoryGame = () => {
     setFlippedCards(newFlippedCards);
 
     setCards(prevCards => 
+      prevCards.map(c => 
         c.id === cardId ? { ...c, isFlipped: true } : c
     );
 
