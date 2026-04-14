@@ -21,3 +21,4 @@ const MemoryGame = () => {
         { id: index * 2, symbol, isFlipped: false, isMatched: false },
       );
 
+    for (let i = gameCards.length - 1; i > 0; i--) {
