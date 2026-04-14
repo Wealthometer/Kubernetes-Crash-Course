@@ -6,3 +6,4 @@ import logo from '../assets/kubesimplify-logo.png';
 const Dashboard = () => {
   const [scores, setScores] = useState([]);
   const [username, setUsername] = useState('');
+  const history = useHistory();
