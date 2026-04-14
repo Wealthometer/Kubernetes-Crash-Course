@@ -50,3 +50,4 @@ const Dashboard = () => {
     localStorage.removeItem('token');
     setUsername('');
     history.push('/login');
+  };
