@@ -80,3 +80,4 @@ const Dashboard = () => {
                   <td className="py-2 px-4 text-center">{score.username}</td>
                   <td className="py-2 px-4 text-center">{score.snake_high_score}</td>
                   <td className="py-2 px-4 text-center">{score.tic_tac_toe_wins}</td>
+                  <td className="py-2 px-4 text-center">{score.tic_tac_toe_losses}</td>
