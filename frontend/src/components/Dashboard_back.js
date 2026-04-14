@@ -15,3 +15,4 @@ const Dashboard = () => {
   } catch (e) {
     console.error('Error decoding token:', e);
     localStorage.removeItem('token');
+    history.push('/login');
