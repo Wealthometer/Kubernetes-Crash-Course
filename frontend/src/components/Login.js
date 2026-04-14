@@ -47,3 +47,4 @@ const Login = () => {
         Don't have an account? <a href="/signup" className="text-blue-500 hover:underline">Sign Up</a>
     </div>
 };
+export default Login;
