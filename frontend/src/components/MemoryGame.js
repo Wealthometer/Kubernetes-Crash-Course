@@ -76,3 +76,4 @@ const MemoryGame = () => {
       // Cards match
       setCards(prevCards =>
         prevCards.map(c =>
+          flippedCardIds.includes(c.id) ? { ...c, isMatched: true } : c
