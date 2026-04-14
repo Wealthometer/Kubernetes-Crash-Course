@@ -21,3 +21,4 @@ const Dashboard = () => {
     }
   }, []);
 
+  const fetchScores = async () => {
