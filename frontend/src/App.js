@@ -47,3 +47,4 @@ const App = () => {
               </button>
             )}
           </nav>
+        </header>
