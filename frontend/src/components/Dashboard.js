@@ -15,3 +15,4 @@ const Dashboard = () => {
         const decoded = JSON.parse(atob(token.split('.')[1]));
         setUsername(decoded.username);
       } catch (e) {
+        console.error('Invalid token:', e);
