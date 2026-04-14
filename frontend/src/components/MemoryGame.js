@@ -47,6 +47,7 @@ const MemoryGame = () => {
     
     const card = cards.find(c => c.id === cardId);
     if (!card || card.isFlipped || card.isMatched || flippedCards.length >= 2) return;
+
     const newFlippedCards = [...flippedCards, cardId];
     setFlippedCards(newFlippedCards);
 
