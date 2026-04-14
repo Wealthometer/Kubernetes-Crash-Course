@@ -104,3 +104,4 @@ const MemoryGame = () => {
       let token = localStorage.getItem('token');
       if (token && token.startsWith('Bearer ')) {
         token = token.split(' ')[1];
+      }
