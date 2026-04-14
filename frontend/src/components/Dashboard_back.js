@@ -90,3 +90,4 @@ const Dashboard = () => {
         </div>
         <div className="flex justify-center space-x-4 mt-6">
           <a href="/snake" className="text-blue-500 hover:underline">Play Snake</a>
+          <a href="/tic-tac-toe" className="text-blue-500 hover:underline">Play Tic-Tac-Toe</a>
