@@ -14,3 +14,4 @@ const Dashboard = () => {
     username = decoded.username;
   } catch (e) {
     console.error('Error decoding token:', e);
+    localStorage.removeItem('token');
