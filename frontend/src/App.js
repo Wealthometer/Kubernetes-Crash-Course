@@ -64,5 +64,6 @@ const App = () => {
       </div>
     </Router>
   );
+};
 
 
