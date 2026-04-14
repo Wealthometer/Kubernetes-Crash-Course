@@ -15,4 +15,5 @@ const Login = () => {
       const fullUrl = '/api/auth/login';
       console.log('Logging in at:', fullUrl); // Debug log
       localStorage.setItem('token', res.data.token);
+      history.push('/dashboard');
     } catch (err) {
