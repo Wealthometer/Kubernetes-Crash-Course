@@ -112,3 +112,4 @@ const MemoryGame = () => {
         losses: won ? 0 : 1,
       };
 
+      const response = await axios.post('/api/game/game/stats', stats, {
