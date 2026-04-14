@@ -52,3 +52,4 @@ const Dashboard = () => {
     history.push('/login');
   };
 
+  return (
