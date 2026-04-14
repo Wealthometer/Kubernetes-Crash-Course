@@ -72,3 +72,4 @@ const MemoryGame = () => {
     const firstCard = cards.find(c => c.id === firstId);
     const secondCard = cards.find(c => c.id === secondId);
 
+    if (firstCard.symbol === secondCard.symbol) {
