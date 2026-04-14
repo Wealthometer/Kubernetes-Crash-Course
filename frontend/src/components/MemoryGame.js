@@ -70,3 +70,4 @@ const MemoryGame = () => {
   const checkForMatch = (flippedCardIds) => {
     const [firstId, secondId] = flippedCardIds;
     const firstCard = cards.find(c => c.id === firstId);
+    const secondCard = cards.find(c => c.id === secondId);
