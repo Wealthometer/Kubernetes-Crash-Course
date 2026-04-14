@@ -53,3 +53,4 @@ const Dashboard = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       <div className="max-w-4xl mx-auto py-8 px-4">
+        <img src={logo} alt="Kubesimplify" className="max-w-xs h-auto mx-auto rounded-lg shadow-md mb-6" />
