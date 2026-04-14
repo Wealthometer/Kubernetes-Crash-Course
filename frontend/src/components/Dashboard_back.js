@@ -68,3 +68,4 @@ const Dashboard = () => {
               <tr className="bg-blue-500 text-white">
                 <th className="py-2 px-4">USERNAME</th>
                 <th className="py-2 px-4">SNAKE HIGH SCORE</th>
+                <th className="py-2 px-4">TIC-TAC-TOE WINS</th>
