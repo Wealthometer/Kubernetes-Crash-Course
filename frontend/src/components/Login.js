@@ -27,4 +27,5 @@ const Login = () => {
         <div className="mb-5">
             id="username"
             onChange={(e) => setUsername(e.target.value)}
+            placeholder="Enter your username"
           <input
