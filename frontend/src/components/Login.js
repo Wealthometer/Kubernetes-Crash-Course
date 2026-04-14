@@ -13,3 +13,4 @@ const Login = () => {
     try {
       console.log('Logging in at:', fullUrl); // Debug log
       localStorage.setItem('token', res.data.token);
+    } catch (err) {
