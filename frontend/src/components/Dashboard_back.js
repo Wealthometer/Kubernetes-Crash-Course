@@ -89,3 +89,4 @@ const Dashboard = () => {
           </table>
         </div>
         <div className="flex justify-center space-x-4 mt-6">
+          <a href="/snake" className="text-blue-500 hover:underline">Play Snake</a>
