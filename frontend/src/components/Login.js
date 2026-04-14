@@ -29,6 +29,7 @@ const Login = () => {
       <h2 className="text-3xl font-bold text-center text-blue-500 mb-6">Login</h2>
       {error && <p className="text-red-500 text-center mb-4 font-medium">{error}</p>}
         <div className="mb-5">
+          <input
             id="username"
             onChange={(e) => setUsername(e.target.value)}
             placeholder="Enter your username"
