@@ -4,3 +4,4 @@ import { useHistory } from 'react-router-dom';
 import logo from '../assets/kubesimplify-logo.png';
 
 const Login = () => {
+  const [username, setUsername] = useState('');
