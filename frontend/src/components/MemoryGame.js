@@ -17,3 +17,4 @@ const MemoryGame = () => {
 
   const initializeGame = () => {
     
+    CARD_SYMBOLS.forEach((symbol, index) => {
