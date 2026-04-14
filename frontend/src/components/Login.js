@@ -38,6 +38,7 @@ const Login = () => {
             onChange={(e) => setUsername(e.target.value)}
             className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
             placeholder="Enter your username"
+            required
           />
         <div className="mb-6">
           <input
