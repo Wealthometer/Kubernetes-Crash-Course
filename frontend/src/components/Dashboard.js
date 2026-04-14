@@ -70,3 +70,4 @@ const Dashboard = () => {
           </>
         )}
 
+        <div className="overflow-x-auto">
