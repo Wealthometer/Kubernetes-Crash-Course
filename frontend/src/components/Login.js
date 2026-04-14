@@ -45,3 +45,4 @@ const Login = () => {
           Login
       </form>
         Don't have an account? <a href="/signup" className="text-blue-500 hover:underline">Sign Up</a>
+    </div>
