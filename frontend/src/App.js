@@ -62,3 +62,4 @@ const App = () => {
           <PrivateRoute path="/memory-game" component={MemoryGame} />
         </Switch>
       </div>
+    </Router>
