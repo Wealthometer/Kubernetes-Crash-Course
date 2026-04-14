@@ -33,6 +33,7 @@ const MemoryGame = () => {
 
     setCards(gameCards);
     setFlippedCards([]);
+    setMatchedPairs([]);
     setMoves(0);
     setGameWon(false);
     setGameStarted(true);
