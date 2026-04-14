@@ -5,3 +5,4 @@ import logo from '../assets/kubesimplify-logo.png';
 const MemoryGame = () => {
   // Game state management
   const [cards, setCards] = useState([]);
+  const [flippedCards, setFlippedCards] = useState([]);
