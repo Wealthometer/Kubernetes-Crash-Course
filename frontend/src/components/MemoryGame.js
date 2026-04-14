@@ -14,6 +14,7 @@ const MemoryGame = () => {
   // Game configuration
   const CARD_SYMBOLS = ['🎮', '🎯', '🎲', '🎪', '🎨', '🎭', '🎸', '🎺'];
   const GRID_SIZE = 16; // 4x4 grid
+  const FLIP_DELAY = 1000;
 
   const initializeGame = () => {
     
