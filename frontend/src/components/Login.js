@@ -40,6 +40,7 @@ const Login = () => {
             placeholder="Enter your username"
             required
           />
+        </div>
         <div className="mb-6">
           <input
             id="password"
