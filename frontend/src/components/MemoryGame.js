@@ -121,3 +121,4 @@ const MemoryGame = () => {
     }
   };
 
+  // Reset game
