@@ -24,3 +24,4 @@ const App = () => {
     history.push('/login');
   };
 
+  return (
