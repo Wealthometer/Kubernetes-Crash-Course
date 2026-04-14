@@ -116,3 +116,4 @@ const MemoryGame = () => {
         headers: { Authorization: `Bearer ${token}` },
       });
       console.log('Memory game stats updated:', response.data);
+    } catch (err) {
