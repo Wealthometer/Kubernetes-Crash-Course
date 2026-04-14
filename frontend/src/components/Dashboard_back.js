@@ -21,3 +21,4 @@ const Dashboard = () => {
   const fetchScores = async () => {
     try {
       const gameServiceUrl = process.env.REACT_APP_GAME_SERVICE_URL || 'http://localhost:8081';      
+      const response = await axios.get(`${gameServiceUrl}/users/scores`, {
