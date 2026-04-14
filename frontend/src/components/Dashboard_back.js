@@ -13,3 +13,4 @@ const Dashboard = () => {
     const decoded = JSON.parse(atob(token.split('.')[1]));
     username = decoded.username;
   } catch (e) {
+    console.error('Error decoding token:', e);
