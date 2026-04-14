@@ -84,3 +84,4 @@ const Dashboard = () => {
                 <th className="py-2 px-4">MEMORY LOSSES</th>
               </tr>
             </thead>
+            <tbody>
