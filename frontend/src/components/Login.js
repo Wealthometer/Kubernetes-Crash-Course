@@ -28,5 +28,6 @@ const Login = () => {
             id="username"
             onChange={(e) => setUsername(e.target.value)}
             placeholder="Enter your username"
+          />
         <div className="mb-6">
           <input
