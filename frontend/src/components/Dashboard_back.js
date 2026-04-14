@@ -9,3 +9,4 @@ const Dashboard = () => {
   const token = localStorage.getItem('token');
   let username = '';
 
+  try {
