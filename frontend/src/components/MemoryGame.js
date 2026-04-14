@@ -32,6 +32,7 @@ const MemoryGame = () => {
     setCards(gameCards);
     setFlippedCards([]);
     setMoves(0);
+    setGameWon(false);
     setGameStarted(true);
 
   const handleCardClick = (cardId) => {
