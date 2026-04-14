@@ -61,3 +61,4 @@ const Dashboard = () => {
         {username && (
           <>
             <p className="text-center text-gray-700 mb-4">Logged in as: {username}</p>
+            <button
