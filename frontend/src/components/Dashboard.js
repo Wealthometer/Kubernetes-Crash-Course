@@ -63,3 +63,4 @@ const Dashboard = () => {
             <p className="text-center text-gray-700 mb-4">Logged in as: {username}</p>
             <button
               onClick={handleLogout}
+              className="block mx-auto bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition duration-300 mb-6"
