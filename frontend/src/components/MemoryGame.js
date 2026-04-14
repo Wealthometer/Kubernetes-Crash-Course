@@ -86,3 +86,4 @@ const MemoryGame = () => {
         setGameWon(true);
         updateGameStats(true);
       }
+    } else {
