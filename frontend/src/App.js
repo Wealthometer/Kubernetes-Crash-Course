@@ -22,3 +22,4 @@ const App = () => {
     localStorage.removeItem('token');
     setIsLoggedIn(false);
     history.push('/login');
+  };
