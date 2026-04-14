@@ -41,3 +41,4 @@ const Dashboard = () => {
       fetchScores();
     };
 
+    window.addEventListener('focus', handleFocus);
