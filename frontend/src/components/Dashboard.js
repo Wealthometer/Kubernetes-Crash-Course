@@ -96,4 +96,5 @@ const Dashboard = () => {
                   <td className="py-2 px-4 text-center">{score.memory_game_wins || 0}</td>
                   <td className="py-2 px-4 text-center">{score.memory_game_losses || 0}</td>
                 </tr>
+              ))}
             </tbody>
