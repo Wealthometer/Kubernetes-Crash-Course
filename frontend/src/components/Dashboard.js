@@ -19,3 +19,4 @@ const Dashboard = () => {
         localStorage.removeItem('token');
       }
     }
+  }, []);
