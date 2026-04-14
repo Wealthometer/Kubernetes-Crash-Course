@@ -24,3 +24,4 @@ const Dashboard = () => {
   const fetchScores = async () => {
     try {
       const fullUrl = '/api/game/users/scores';
+      console.log('Fetching scores from:', fullUrl); // Debug log
