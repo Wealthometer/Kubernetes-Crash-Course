@@ -86,3 +86,4 @@ const Dashboard = () => {
                 </tr>
               ))}
             </tbody>
+          </table>
