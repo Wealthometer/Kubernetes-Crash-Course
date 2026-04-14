@@ -32,5 +32,6 @@ const MemoryGame = () => {
     
     if (!card || card.isFlipped || card.isMatched || flippedCards.length >= 2) return;
     const newFlippedCards = [...flippedCards, cardId];
+
     setCards(prevCards => 
 
