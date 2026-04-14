@@ -8,3 +8,4 @@ const Dashboard = () => {
   const [username, setUsername] = useState('');
   const history = useHistory();
 
+  useEffect(() => {
