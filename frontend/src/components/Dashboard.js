@@ -41,3 +41,4 @@ const Dashboard = () => {
   useEffect(() => {
     const handleFocus = () => {
       fetchScores();
+    };
