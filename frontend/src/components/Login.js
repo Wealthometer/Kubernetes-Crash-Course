@@ -12,6 +12,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
+      const fullUrl = '/api/auth/login';
       console.log('Logging in at:', fullUrl); // Debug log
       localStorage.setItem('token', res.data.token);
     } catch (err) {
