@@ -3,4 +3,5 @@ import axios from 'axios';
 import logo from '../assets/kubesimplify-logo.png';
 
 const MemoryGame = () => {
+  // Game state management
   const [cards, setCards] = useState([]);
