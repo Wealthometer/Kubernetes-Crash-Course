@@ -62,3 +62,4 @@ const Dashboard = () => {
         >
           Logout
         </button>
+        <div className="overflow-x-auto">
