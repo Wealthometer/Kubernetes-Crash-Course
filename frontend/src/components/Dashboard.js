@@ -13,3 +13,4 @@ const Dashboard = () => {
     if (token) {
       try {
         const decoded = JSON.parse(atob(token.split('.')[1]));
+        setUsername(decoded.username);
