@@ -79,3 +79,4 @@ const MemoryGame = () => {
           flippedCardIds.includes(c.id) ? { ...c, isMatched: true } : c
         )
       );
+      setMatchedPairs(prev => [...prev, firstCard.symbol]);
