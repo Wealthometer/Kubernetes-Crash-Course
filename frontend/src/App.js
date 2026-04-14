@@ -40,3 +40,4 @@ const App = () => {
               </>
             ) : (
               <button
+                onClick={handleLogout}
