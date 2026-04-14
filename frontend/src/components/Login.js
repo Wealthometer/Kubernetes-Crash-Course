@@ -34,6 +34,7 @@ const Login = () => {
           <input
             type="text"
             id="username"
+            value={username}
             onChange={(e) => setUsername(e.target.value)}
             placeholder="Enter your username"
           />
