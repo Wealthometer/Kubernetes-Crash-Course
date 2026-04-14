@@ -110,3 +110,4 @@ const Dashboard = () => {
       </div>
     </div>
   );
+};
