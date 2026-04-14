@@ -108,3 +108,4 @@ const Dashboard = () => {
           <a href="/memory-game" className="text-blue-500 hover:underline">Play Memory</a>
         </div>
       </div>
+    </div>
