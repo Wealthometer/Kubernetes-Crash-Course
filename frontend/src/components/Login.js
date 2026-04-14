@@ -6,3 +6,4 @@ import logo from '../assets/kubesimplify-logo.png';
 const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const history = useHistory();
