@@ -22,3 +22,4 @@ const MemoryGame = () => {
       );
 
     for (let i = gameCards.length - 1; i > 0; i--) {
+      [gameCards[i], gameCards[j]] = [gameCards[j], gameCards[i]];
