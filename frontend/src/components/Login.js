@@ -11,6 +11,7 @@ const Login = () => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
+    setError('');
     try {
       const fullUrl = '/api/auth/login';
       console.log('Logging in at:', fullUrl); // Debug log
