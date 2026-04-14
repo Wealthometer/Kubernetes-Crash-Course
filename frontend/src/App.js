@@ -30,3 +30,4 @@ const App = () => {
         <header className="bg-blue-500 text-white p-4 flex justify-between items-center">
           <div className="flex items-center">
             <h1 className="text-2xl font-bold">GameHub</h1>
+          </div>
