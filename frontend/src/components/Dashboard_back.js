@@ -88,3 +88,4 @@ const Dashboard = () => {
             </tbody>
           </table>
         </div>
+        <div className="flex justify-center space-x-4 mt-6">
