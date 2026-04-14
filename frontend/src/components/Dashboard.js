@@ -33,3 +33,4 @@ const Dashboard = () => {
       console.error('Error fetching scores:', err.response ? err.response.data : err.message);
     }
   };
+
