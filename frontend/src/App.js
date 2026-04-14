@@ -35,3 +35,4 @@ const App = () => {
             <a href="/dashboard" className="text-white hover:underline mx-2">Dashboard</a>
             {!isLoggedIn ? (
               <>
+                <a href="/signup" className="text-white hover:underline mx-2">Sign Up</a>
