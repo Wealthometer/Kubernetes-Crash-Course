@@ -89,3 +89,4 @@ const MemoryGame = () => {
     } else {
       // Cards don't match - flip them back
       setCards(prevCards =>
+        prevCards.map(c =>
