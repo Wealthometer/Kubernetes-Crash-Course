@@ -42,6 +42,7 @@ const Login = () => {
           />
         </div>
         <div className="mb-6">
+          <label className="block text-gray-700 mb-2 font-medium" htmlFor="password">Password</label>
           <input
             id="password"
             onChange={(e) => setPassword(e.target.value)}
