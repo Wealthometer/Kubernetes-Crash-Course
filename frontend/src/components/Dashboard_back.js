@@ -40,3 +40,4 @@ const Dashboard = () => {
     const handleFocus = () => {
       fetchScores();
     };
+
