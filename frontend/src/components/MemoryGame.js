@@ -96,3 +96,4 @@ const MemoryGame = () => {
     }
     
     setFlippedCards([]);
+  };
