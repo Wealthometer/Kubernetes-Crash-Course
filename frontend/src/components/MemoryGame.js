@@ -87,3 +87,4 @@ const MemoryGame = () => {
         updateGameStats(true);
       }
     } else {
+      // Cards don't match - flip them back
