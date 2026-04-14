@@ -7,3 +7,4 @@ const Dashboard = () => {
   const [scores, setScores] = useState([]);
   const [username, setUsername] = useState('');
   const history = useHistory();
+
