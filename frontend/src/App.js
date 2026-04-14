@@ -23,3 +23,4 @@ const App = () => {
     setIsLoggedIn(false);
     history.push('/login');
   };
+
