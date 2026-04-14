@@ -41,3 +41,4 @@ const Login = () => {
             placeholder="Enter your password"
           />
         <button
+          className="w-full bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-700 transition duration-300 font-medium"
