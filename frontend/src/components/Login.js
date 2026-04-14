@@ -20,3 +20,4 @@ const Login = () => {
       history.push('/dashboard');
     } catch (err) {
       setError('Login failed. Please check your credentials.');
+  };
