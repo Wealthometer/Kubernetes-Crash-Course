@@ -117,3 +117,4 @@ const MemoryGame = () => {
       });
       console.log('Memory game stats updated:', response.data);
     } catch (err) {
+      console.error('Error updating memory game stats:', err.response ? err.response.data : err.message);
