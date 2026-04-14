@@ -6,3 +6,4 @@ const MemoryGame = () => {
   // Game state management
   const [cards, setCards] = useState([]);
   const [flippedCards, setFlippedCards] = useState([]);
+  const [matchedPairs, setMatchedPairs] = useState([]);
