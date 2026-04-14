@@ -16,3 +16,4 @@ const MemoryGame = () => {
   const GRID_SIZE = 16; // 4x4 grid
 
   const initializeGame = () => {
+    
