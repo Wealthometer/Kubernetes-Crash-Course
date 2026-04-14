@@ -50,3 +50,4 @@ const App = () => {
         </header>
 
         <Switch>
+          <Route exact path="/" component={Login} />
