@@ -123,3 +123,4 @@ const MemoryGame = () => {
 
   // Reset game
   const resetGame = () => {
+    initializeGame();
