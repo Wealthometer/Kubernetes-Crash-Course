@@ -81,3 +81,4 @@ const MemoryGame = () => {
       );
       setMatchedPairs(prev => [...prev, firstCard.symbol]);
       
+      // Check if game is won
