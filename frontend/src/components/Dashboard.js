@@ -79,3 +79,4 @@ const Dashboard = () => {
                 <th className="py-2 px-4">TIC-TAC-TOE WINS</th>
                 <th className="py-2 px-4">TIC-TAC-TOE LOSSES</th>
                 <th className="py-2 px-4">RPS WINS</th>
+                <th className="py-2 px-4">RPS LOSSES</th>
