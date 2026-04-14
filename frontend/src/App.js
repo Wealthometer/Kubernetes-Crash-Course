@@ -42,3 +42,4 @@ const App = () => {
               <button
                 onClick={handleLogout}
                 className="text-white hover:underline mx-2 bg-transparent border-none cursor-pointer"
+              >
