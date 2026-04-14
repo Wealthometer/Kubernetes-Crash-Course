@@ -29,3 +29,4 @@ const Dashboard = () => {
         params: { t: new Date().getTime() }, // Cache-busting
       });
       setScores(response.data);
+    } catch (err) {
