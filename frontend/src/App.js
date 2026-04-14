@@ -56,3 +56,4 @@ const App = () => {
           <Route path="/dashboard" component={Dashboard} />
 
           {/* 👇 Games are now protected */}
+          <PrivateRoute path="/snake" component={Snake} />
