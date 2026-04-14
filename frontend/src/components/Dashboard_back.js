@@ -12,3 +12,4 @@ const Dashboard = () => {
   try {
     const decoded = JSON.parse(atob(token.split('.')[1]));
     username = decoded.username;
+  } catch (e) {
