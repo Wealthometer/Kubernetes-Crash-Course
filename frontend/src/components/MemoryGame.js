@@ -31,6 +31,7 @@ const MemoryGame = () => {
     for (let i = gameCards.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [gameCards[i], gameCards[j]] = [gameCards[j], gameCards[i]];
+    }
 
     setCards(gameCards);
     setFlippedCards([]);
