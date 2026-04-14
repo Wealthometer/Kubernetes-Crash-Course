@@ -58,3 +58,4 @@ const Dashboard = () => {
         <img src={logo} alt="Kubesimplify" className="max-w-xs h-auto mx-auto rounded-lg shadow-md mb-6" />
         <h2 className="text-3xl font-bold text-center text-blue-500 mb-6">Dashboard</h2>
         
+        {username && (
