@@ -16,3 +16,4 @@ const Dashboard = () => {
     console.error('Error decoding token:', e);
     localStorage.removeItem('token');
     history.push('/login');
+  }
