@@ -27,3 +27,4 @@ const Dashboard = () => {
       console.log('Fetched scores:', response.data);
       setScores(response.data);
     } catch (err) {
+      console.error('Error fetching scores:', err.response ? err.response.data : err.message);
