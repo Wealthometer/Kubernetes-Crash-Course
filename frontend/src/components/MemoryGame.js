@@ -17,6 +17,7 @@ const MemoryGame = () => {
   const FLIP_DELAY = 1000;
 
   const initializeGame = () => {
+    const gameCards = [];
     
     CARD_SYMBOLS.forEach((symbol, index) => {
         { id: index * 2, symbol, isFlipped: false, isMatched: false },
