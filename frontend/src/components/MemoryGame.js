@@ -106,3 +106,4 @@ const MemoryGame = () => {
         token = token.split(' ')[1];
       }
 
+      const stats = {
