@@ -82,3 +82,4 @@ const Dashboard = () => {
                 <th className="py-2 px-4">RPS LOSSES</th>
                 <th className="py-2 px-4">MEMORY WINS</th>
                 <th className="py-2 px-4">MEMORY LOSSES</th>
+              </tr>
