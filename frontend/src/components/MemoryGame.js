@@ -26,3 +26,4 @@ const MemoryGame = () => {
 
     setFlippedCards([]);
     setMoves(0);
+    setGameStarted(true);
