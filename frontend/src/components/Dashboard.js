@@ -28,3 +28,4 @@ const Dashboard = () => {
       const response = await axios.get(fullUrl, {
         params: { t: new Date().getTime() }, // Cache-busting
       });
+      setScores(response.data);
