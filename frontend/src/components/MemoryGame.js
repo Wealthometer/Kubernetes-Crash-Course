@@ -35,6 +35,7 @@ const MemoryGame = () => {
     setGameWon(false);
     setGameStarted(true);
 
+  // Handle card click
   const handleCardClick = (cardId) => {
     
     if (!card || card.isFlipped || card.isMatched || flippedCards.length >= 2) return;
