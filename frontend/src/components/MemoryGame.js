@@ -83,3 +83,4 @@ const MemoryGame = () => {
       
       // Check if game is won
       if (matchedPairs.length + 1 === CARD_SYMBOLS.length) {
+        setGameWon(true);
