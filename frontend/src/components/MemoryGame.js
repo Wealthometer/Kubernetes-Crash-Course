@@ -107,3 +107,4 @@ const MemoryGame = () => {
       }
 
       const stats = {
+        game_type: 'memory-game',
