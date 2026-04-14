@@ -22,6 +22,7 @@ const Login = () => {
       setError('Login failed. Please check your credentials.');
     }
   };
+
   return (
       <img src={logo} alt="Kubesimplify" className="max-w-xs h-auto mx-auto rounded-lg shadow-md mb-6" />
       {error && <p className="text-red-500 text-center mb-4 font-medium">{error}</p>}
