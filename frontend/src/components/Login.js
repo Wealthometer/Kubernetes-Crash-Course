@@ -30,6 +30,7 @@ const Login = () => {
       {error && <p className="text-red-500 text-center mb-4 font-medium">{error}</p>}
       <form onSubmit={handleLogin}>
         <div className="mb-5">
+          <label className="block text-gray-700 mb-2 font-medium" htmlFor="username">Username</label>
           <input
             id="username"
             onChange={(e) => setUsername(e.target.value)}
