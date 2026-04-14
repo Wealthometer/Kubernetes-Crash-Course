@@ -55,3 +55,4 @@ const App = () => {
           <Route path="/signup" component={Signup} />
           <Route path="/dashboard" component={Dashboard} />
 
+          {/* 👇 Games are now protected */}
