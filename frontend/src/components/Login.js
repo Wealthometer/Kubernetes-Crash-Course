@@ -26,4 +26,5 @@ const Login = () => {
       {error && <p className="text-red-500 text-center mb-4 font-medium">{error}</p>}
         <div className="mb-5">
             id="username"
+            onChange={(e) => setUsername(e.target.value)}
           <input
