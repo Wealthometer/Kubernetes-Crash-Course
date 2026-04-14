@@ -13,3 +13,4 @@ const MemoryGame = () => {
 
   // Game configuration
   const CARD_SYMBOLS = ['🎮', '🎯', '🎲', '🎪', '🎨', '🎭', '🎸', '🎺'];
+  const GRID_SIZE = 16; // 4x4 grid
