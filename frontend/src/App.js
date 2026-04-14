@@ -32,3 +32,4 @@ const App = () => {
             <h1 className="text-2xl font-bold">GameHub</h1>
           </div>
           <nav>
+            <a href="/dashboard" className="text-white hover:underline mx-2">Dashboard</a>
