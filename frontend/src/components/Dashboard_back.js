@@ -94,3 +94,4 @@ const Dashboard = () => {
           <a href="/rock-paper-scissors" className="text-blue-500 hover:underline">Play RPS</a>
         </div>
       </div>
+    </div>
