@@ -28,3 +28,4 @@ const MemoryGame = () => {
     setMoves(0);
     setGameStarted(true);
 
+  const handleCardClick = (cardId) => {
