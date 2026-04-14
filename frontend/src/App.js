@@ -31,3 +31,4 @@ const App = () => {
           <div className="flex items-center">
             <h1 className="text-2xl font-bold">GameHub</h1>
           </div>
+          <nav>
