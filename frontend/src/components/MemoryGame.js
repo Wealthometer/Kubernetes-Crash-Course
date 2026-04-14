@@ -90,3 +90,4 @@ const MemoryGame = () => {
       // Cards don't match - flip them back
       setCards(prevCards =>
         prevCards.map(c =>
+          flippedCardIds.includes(c.id) ? { ...c, isFlipped: false } : c
