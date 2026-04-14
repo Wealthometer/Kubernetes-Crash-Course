@@ -38,3 +38,4 @@ const MemoryGame = () => {
     );
 
     // Check for match when two cards are flipped
+    if (newFlippedCards.length === 2) {
