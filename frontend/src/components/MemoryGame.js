@@ -98,3 +98,4 @@ const MemoryGame = () => {
     setFlippedCards([]);
   };
 
+  // Update game statistics
