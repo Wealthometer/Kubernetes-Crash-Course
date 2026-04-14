@@ -114,3 +114,4 @@ const MemoryGame = () => {
 
       const response = await axios.post('/api/game/game/stats', stats, {
         headers: { Authorization: `Bearer ${token}` },
+      });
