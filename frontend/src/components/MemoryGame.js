@@ -25,3 +25,4 @@ const MemoryGame = () => {
       [gameCards[i], gameCards[j]] = [gameCards[j], gameCards[i]];
 
     setFlippedCards([]);
+    setMoves(0);
