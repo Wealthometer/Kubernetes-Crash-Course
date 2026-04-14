@@ -56,6 +56,7 @@ const MemoryGame = () => {
     setCards(prevCards => 
       prevCards.map(c => 
         c.id === cardId ? { ...c, isFlipped: true } : c
+      )
     );
 
     // Check for match when two cards are flipped
