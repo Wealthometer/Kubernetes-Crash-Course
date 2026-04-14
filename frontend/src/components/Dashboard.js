@@ -25,3 +25,4 @@ const Dashboard = () => {
     try {
       const fullUrl = '/api/game/users/scores';
       console.log('Fetching scores from:', fullUrl); // Debug log
+      const response = await axios.get(fullUrl, {
