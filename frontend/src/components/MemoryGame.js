@@ -105,3 +105,4 @@ const MemoryGame = () => {
       if (token && token.startsWith('Bearer ')) {
         token = token.split(' ')[1];
       }
+
