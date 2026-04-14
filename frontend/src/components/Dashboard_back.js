@@ -32,3 +32,4 @@ const Dashboard = () => {
   };
 
   useEffect(() => {
+    fetchScores();
