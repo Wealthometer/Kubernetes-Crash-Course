@@ -111,3 +111,4 @@ const MemoryGame = () => {
         wins: won ? 1 : 0,
         losses: won ? 0 : 1,
       };
+
