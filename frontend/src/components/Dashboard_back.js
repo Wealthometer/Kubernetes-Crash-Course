@@ -7,3 +7,4 @@ const Dashboard = () => {
   const [scores, setScores] = useState([]);
   const history = useHistory();
   const token = localStorage.getItem('token');
+  let username = '';
