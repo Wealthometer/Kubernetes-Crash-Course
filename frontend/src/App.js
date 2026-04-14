@@ -28,3 +28,4 @@ const App = () => {
     <Router>
       <div className="min-h-screen bg-gray-100">
         <header className="bg-blue-500 text-white p-4 flex justify-between items-center">
+          <div className="flex items-center">
