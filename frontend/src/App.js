@@ -46,3 +46,4 @@ const App = () => {
                 Logout
               </button>
             )}
+          </nav>
