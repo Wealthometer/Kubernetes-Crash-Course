@@ -92,3 +92,4 @@ const MemoryGame = () => {
         prevCards.map(c =>
           flippedCardIds.includes(c.id) ? { ...c, isFlipped: false } : c
         )
+      );
