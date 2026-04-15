@@ -152,3 +152,4 @@ const MemoryGame = () => {
               <p className="text-lg">You won in {moves} moves!</p>
             </div>
           )}
+
