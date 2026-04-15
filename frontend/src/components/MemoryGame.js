@@ -150,3 +150,4 @@ const MemoryGame = () => {
             <div className="text-center mb-4">
               <p className="text-green-500 text-2xl font-bold mb-2">🎉 Congratulations! 🎉</p>
               <p className="text-lg">You won in {moves} moves!</p>
+            </div>
