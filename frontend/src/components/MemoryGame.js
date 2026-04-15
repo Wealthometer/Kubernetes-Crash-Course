@@ -159,3 +159,4 @@ const MemoryGame = () => {
                 key={card.id}
                 onClick={() => handleCardClick(card.id)}
                 className={`
+                  w-16 h-16 flex items-center justify-center text-2xl font-bold rounded-lg cursor-pointer transition-all duration-300 transform hover:scale-105
