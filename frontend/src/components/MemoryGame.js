@@ -176,3 +176,4 @@ const MemoryGame = () => {
             onClick={resetGame}
             className="bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition duration-300 mb-6"
           >
+            Reset Game
