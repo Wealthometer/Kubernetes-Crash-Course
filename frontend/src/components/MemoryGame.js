@@ -146,3 +146,4 @@ const MemoryGame = () => {
             Moves: {moves} | Pairs Found: {matchedPairs.length}/{CARD_SYMBOLS.length}
           </div>
 
+          {gameWon && (
