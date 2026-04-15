@@ -135,3 +135,4 @@ const MemoryGame = () => {
         <button
           onClick={initializeGame}
           className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition duration-300 mb-6 text-lg font-medium"
+          Start Game
