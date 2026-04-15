@@ -168,3 +168,4 @@ const MemoryGame = () => {
                 `}
               >
                 {card.isFlipped || card.isMatched ? card.symbol : '?'}
+              </div>
