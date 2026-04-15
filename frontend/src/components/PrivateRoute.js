@@ -6,3 +6,4 @@ const PrivateRoute = ({ component: Component, ...rest }) => {
   const isAuthenticated = !!token;
 
   return (
+    <Route
