@@ -141,3 +141,4 @@ const MemoryGame = () => {
       )}
 
       {gameStarted && (
+        <>
