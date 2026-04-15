@@ -154,3 +154,4 @@ const MemoryGame = () => {
           )}
 
           <div className="grid grid-cols-4 gap-3 mb-6 max-w-md">
+            {cards.map((card) => (
