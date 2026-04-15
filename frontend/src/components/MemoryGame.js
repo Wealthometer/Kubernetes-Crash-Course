@@ -167,3 +167,4 @@ const MemoryGame = () => {
                   ${card.isMatched ? 'opacity-75' : ''}
                 `}
               >
+                {card.isFlipped || card.isMatched ? card.symbol : '?'}
