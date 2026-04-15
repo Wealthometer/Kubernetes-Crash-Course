@@ -130,3 +130,4 @@ const MemoryGame = () => {
     <div className="min-h-screen bg-gray-100 flex flex-col items-center py-8">
       <img src={logo} alt="Kubesimplify" className="max-w-xs h-auto mx-auto rounded-lg shadow-md mb-6" />
       <h2 className="text-3xl font-bold text-blue-500 mb-4">Memory Card Game</h2>
+      
