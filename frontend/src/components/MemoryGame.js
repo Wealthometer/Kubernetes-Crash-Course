@@ -147,3 +147,4 @@ const MemoryGame = () => {
           </div>
 
           {gameWon && (
+            <div className="text-center mb-4">
