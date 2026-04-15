@@ -178,3 +178,4 @@ const MemoryGame = () => {
           >
             Reset Game
           </button>
+        </>
