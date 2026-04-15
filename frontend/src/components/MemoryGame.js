@@ -173,3 +173,4 @@ const MemoryGame = () => {
           </div>
 
           <button
+            onClick={resetGame}
