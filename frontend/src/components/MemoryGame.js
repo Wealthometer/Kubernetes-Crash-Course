@@ -132,3 +132,4 @@ const MemoryGame = () => {
       <h2 className="text-3xl font-bold text-blue-500 mb-4">Memory Card Game</h2>
       
       {!gameStarted && (
+          onClick={initializeGame}
