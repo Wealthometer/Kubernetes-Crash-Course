@@ -164,3 +164,4 @@ const MemoryGame = () => {
                     ? 'bg-white border-2 border-blue-500 shadow-md' 
                     : 'bg-blue-500 hover:bg-blue-600 shadow-lg'
                   }
+                  ${card.isMatched ? 'opacity-75' : ''}
