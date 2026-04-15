@@ -142,3 +142,4 @@ const MemoryGame = () => {
 
       {gameStarted && (
         <>
+          <div className="mb-4 text-lg font-medium">
