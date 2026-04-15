@@ -158,3 +158,4 @@ const MemoryGame = () => {
               <div
                 key={card.id}
                 onClick={() => handleCardClick(card.id)}
+                className={`
