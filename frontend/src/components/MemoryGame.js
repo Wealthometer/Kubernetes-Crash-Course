@@ -162,4 +162,5 @@ const MemoryGame = () => {
                   w-16 h-16 flex items-center justify-center text-2xl font-bold rounded-lg cursor-pointer transition-all duration-300 transform hover:scale-105
                   ${card.isFlipped || card.isMatched 
                     ? 'bg-white border-2 border-blue-500 shadow-md' 
+                    : 'bg-blue-500 hover:bg-blue-600 shadow-lg'
                   }
