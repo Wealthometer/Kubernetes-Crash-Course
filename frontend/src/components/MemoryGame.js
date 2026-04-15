@@ -157,3 +157,4 @@ const MemoryGame = () => {
             {cards.map((card) => (
               <div
                 key={card.id}
+                onClick={() => handleCardClick(card.id)}
