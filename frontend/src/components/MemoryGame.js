@@ -138,3 +138,4 @@ const MemoryGame = () => {
         >
           Start Game
         </button>
+      )}
